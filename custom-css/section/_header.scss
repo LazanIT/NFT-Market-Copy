@@ -9,19 +9,47 @@ header {
     .logo-holder {
       display: inline-flex;
       gap: 1rem;
+      transition: all 0.4s ease-in;
+      &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
     }
+
     a {
       text-decoration: none;
     }
     ul {
       list-style-type: none;
-
       gap: 4rem;
       color: $gray-color;
       font-size: $sm-font;
       font-weight: $weight-600;
       line-height: normal;
       letter-spacing: 0.0125rem;
+      position: relative;
+
+      a {
+        &:after {
+          content: "";
+          display: none;
+          background-color: #837e7e;
+          height: 3px;
+          width: 100%;
+          position: absolute;
+        }
+      }
+      li {
+        transition: all 0.4s linear;
+        &:hover {
+          transform: translateY(5px);
+          a {
+            &::after {
+              display: block;
+            }
+          }
+        }
+      }
     }
     .button-holder {
       gap: 1rem;
@@ -35,6 +63,11 @@ header {
         border-radius: 0.75rem;
         font-size: $sm-font;
         font-weight: $weight-600;
+        transition: all 0.4s linear;
+        &:hover {
+          transform: translateY(5px);
+          cursor: pointer;
+        }
       }
       .my-account-btn {
         border-radius: 0.75rem;
@@ -46,8 +79,13 @@ header {
         border-radius: 0.75rem;
         font-size: $sm-font;
         font-weight: $weight-600;
+        transition: all 0.4s linear;
         a {
           color: white;
+        }
+        &:hover {
+          transform: translateY(5px);
+          cursor: pointer;
         }
       }
     }

@@ -25,6 +25,11 @@ header nav {
 header nav .logo-holder {
   display: inline-flex;
   gap: 1rem;
+  transition: all 0.4s ease-in;
+}
+header nav .logo-holder:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 header nav a {
   text-decoration: none;
@@ -37,6 +42,24 @@ header nav ul {
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.0125rem;
+  position: relative;
+}
+header nav ul a:after {
+  content: "";
+  display: none;
+  background-color: #837e7e;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+}
+header nav ul li {
+  transition: all 0.4s linear;
+}
+header nav ul li:hover {
+  transform: translateY(5px);
+}
+header nav ul li:hover a::after {
+  display: block;
 }
 header nav .button-holder {
   gap: 1rem;
@@ -49,6 +72,11 @@ header nav .button-holder .contact-btn {
   border-radius: 0.75rem;
   font-size: 1rem;
   font-weight: 600;
+  transition: all 0.4s linear;
+}
+header nav .button-holder .contact-btn:hover {
+  transform: translateY(5px);
+  cursor: pointer;
 }
 header nav .button-holder .my-account-btn {
   border-radius: 0.75rem;
@@ -58,7 +86,12 @@ header nav .button-holder .my-account-btn {
   border-radius: 0.75rem;
   font-size: 1rem;
   font-weight: 600;
+  transition: all 0.4s linear;
 }
 header nav .button-holder .my-account-btn a {
   color: white;
+}
+header nav .button-holder .my-account-btn:hover {
+  transform: translateY(5px);
+  cursor: pointer;
 }
