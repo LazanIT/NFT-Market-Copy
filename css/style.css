@@ -12,12 +12,12 @@ body {
 }
 
 header nav {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 2.4375rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 header nav .logo-holder {
   display: inline-flex;
@@ -30,4 +30,9 @@ header nav ul {
   list-style-type: none;
   display: flex;
   gap: 4rem;
+  color: #7780a1;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.0125rem;
 }
