@@ -5,3 +5,13 @@
   font-family: "Montserrat", sans-serif;
   font-family: "Sora", sans-serif;
 }
+
+body {
+  background-color: #fff;
+  height: 100vh;
+}
+
+header nav .logo-holder {
+  display: inline-flex;
+  gap: 1rem;
+}
