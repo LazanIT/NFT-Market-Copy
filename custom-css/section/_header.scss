@@ -1,7 +1,6 @@
 header {
   nav {
     border-radius: 10px;
-
     justify-content: space-between;
     align-items: center;
     padding: 2rem 2.4375rem;
@@ -20,12 +19,22 @@ header {
       gap: 4rem;
       color: $gray-color;
       font-size: $sm-font;
-      font-weight: 600;
+      font-weight: $weight-600;
       line-height: normal;
       letter-spacing: 0.0125rem;
     }
     .button-holder {
       gap: 1rem;
+      .contact-btn {
+        border-radius: 0.75rem;
+        border: 2px solid var(--on-white-grey-100, #7780a1);
+        box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset,
+          -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
+        padding: 1rem 1.5rem;
+        background-color: $background-rest-white;
+        font-size: $sm-font;
+        font-weight: $weight-600;
+      }
     }
   }
 }
