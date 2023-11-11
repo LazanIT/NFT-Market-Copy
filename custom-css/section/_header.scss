@@ -25,15 +25,30 @@ header {
     }
     .button-holder {
       gap: 1rem;
+
       .contact-btn {
-        border-radius: 0.75rem;
-        border: 2px solid var(--on-white-grey-100, #7780a1);
+        border: 2px solid $gray-color;
         box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset,
           -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
-        padding: 1rem 1.5rem;
         background-color: $background-rest-white;
+        padding: 1rem 1.5rem;
+        border-radius: 0.75rem;
         font-size: $sm-font;
         font-weight: $weight-600;
+      }
+      .my-account-btn {
+        border-radius: 0.75rem;
+        background: linear-gradient(104deg, #4745d0 0%, #2a27c9 60.23%);
+        box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset,
+          -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
+
+        padding: 1rem 1.5rem;
+        border-radius: 0.75rem;
+        font-size: $sm-font;
+        font-weight: $weight-600;
+        a {
+          color: white;
+        }
       }
     }
   }

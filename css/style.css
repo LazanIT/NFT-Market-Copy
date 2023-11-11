@@ -42,11 +42,23 @@ header nav .button-holder {
   gap: 1rem;
 }
 header nav .button-holder .contact-btn {
-  border-radius: 0.75rem;
-  border: 2px solid var(--on-white-grey-100, #7780a1);
+  border: 2px solid #7780a1;
   box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset, -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
-  padding: 1rem 1.5rem;
   background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
   font-size: 1rem;
   font-weight: 600;
+}
+header nav .button-holder .my-account-btn {
+  border-radius: 0.75rem;
+  background: linear-gradient(104deg, #4745d0 0%, #2a27c9 60.23%);
+  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset, -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+header nav .button-holder .my-account-btn a {
+  color: white;
 }
