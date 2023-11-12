@@ -95,3 +95,9 @@ header nav .button-holder .my-account-btn:hover {
   transform: translateY(5px);
   cursor: pointer;
 }
+header .container {
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 80vh;
+}
