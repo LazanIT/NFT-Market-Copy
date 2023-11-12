@@ -106,7 +106,7 @@ header .container .header-title {
   justify-content: center;
 }
 header .container .header-title h1 {
-  line-height: 100%;
+  line-height: 90px;
   letter-spacing: 1px;
   font-size: 7.5rem;
   font-weight: 600;
@@ -120,4 +120,7 @@ header .container span {
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   color: #7780a1;
+}
+header .container .left-margin {
+  margin-left: 200px;
 }
