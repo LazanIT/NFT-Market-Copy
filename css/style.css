@@ -181,6 +181,9 @@ header .container .search-holder #select ul li {
   padding: 5px;
   text-align: left;
 }
+header .container .search-holder #select .open {
+  max-height: 180px;
+}
 header .container .search-holder .text-holder {
   flex-direction: row;
   gap: 2rem;

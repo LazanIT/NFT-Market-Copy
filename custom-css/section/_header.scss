@@ -169,11 +169,15 @@ header {
           overflow: hidden;
           max-height: 0;
           transition: max-height 0.5s;
+
           li {
             list-style-type: none;
             padding: 5px;
             text-align: left;
           }
+        }
+        .open {
+          max-height: 180px;
         }
       }
       .text-holder {
