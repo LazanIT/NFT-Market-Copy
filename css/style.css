@@ -165,20 +165,41 @@ header .container .search-holder #select {
 header .container .search-holder #select ul {
   position: absolute;
   top: 150%;
+  background-color: #4745d0;
+  border-radius: 10px;
+  width: 130px;
+  letter-spacing: 1px;
+  color: #bbc0d0;
+  font-size: 1rem;
+  opacity: 0.8;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s;
+}
+header .container .search-holder #select ul li {
+  list-style-type: none;
+  padding: 5px;
+  text-align: left;
 }
 header .container .search-holder .text-holder {
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
 }
 header .container .search-holder .text-holder p {
   margin-top: 0;
-  line-height: 20px;
+  line-height: 22px;
+  opacity: 0.5;
+  color: #bbc0d0;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
 }
 header .container .search-holder .text-holder i {
   font-size: 1.5rem;
-}
-header .container .search-holder li {
-  list-style-type: none;
+  color: #bbc0d0;
 }
 header .container .search-holder svg {
   cursor: pointer;

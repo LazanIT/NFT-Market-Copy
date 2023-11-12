@@ -159,24 +159,46 @@ header {
         ul {
           position: absolute;
           top: 150%;
+          background-color: #4745d0;
+          border-radius: 10px;
+          width: 130px;
+          letter-spacing: 1px;
+          color: $light-gray;
+          font-size: $sm-font;
+          opacity: 0.8;
+          overflow: hidden;
+          max-height: 0;
+          transition: max-height 0.5s;
+          li {
+            list-style-type: none;
+            padding: 5px;
+            text-align: left;
+          }
         }
       }
       .text-holder {
         flex-direction: row;
-        gap: 1rem;
+        gap: 2rem;
+
         p {
           margin-top: 0;
-          line-height: 20px;
+          line-height: 22px;
+          opacity: 0.5;
+          color: $light-gray;
+          font-family: "Inter";
+          font-size: $sm-font;
+          font-weight: 400;
+          letter-spacing: 1px;
+          border: none;
+          outline: none;
         }
 
         i {
           font-size: $md-font;
+          color: $light-gray;
         }
       }
 
-      li {
-        list-style-type: none;
-      }
       svg {
         cursor: pointer;
       }
