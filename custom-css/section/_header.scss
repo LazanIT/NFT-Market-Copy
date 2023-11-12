@@ -98,6 +98,13 @@ header {
     .header-title {
       flex-direction: row;
       justify-content: center;
+
+      h1 {
+        line-height: 100%;
+        letter-spacing: 1px;
+        font-size: $xxl-font;
+        font-weight: $weight-600;
+      }
     }
     span {
       font-family: Inter;

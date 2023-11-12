@@ -105,6 +105,12 @@ header .container .header-title {
   flex-direction: row;
   justify-content: center;
 }
+header .container .header-title h1 {
+  line-height: 100%;
+  letter-spacing: 1px;
+  font-size: 7.5rem;
+  font-weight: 600;
+}
 header .container span {
   font-family: Inter;
   font-size: 1rem;
