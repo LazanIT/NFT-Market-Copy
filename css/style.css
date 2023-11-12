@@ -113,7 +113,7 @@ header .container .header-title h1 {
   font-weight: 600;
 }
 header .container span {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -130,7 +130,7 @@ header .container .margin-right {
   margin-right: 80px;
 }
 header .container p {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 1.5rem;
   font-weight: 400;
   color: #7780a1;
@@ -147,6 +147,16 @@ header .container .search-holder {
   align-items: center;
   padding: 1rem 1.5rem;
   text-align: center;
+}
+header .container .search-holder input {
+  opacity: 0.5;
+  color: #bbc0d0;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
 }
 header .container .search-holder #select {
   cursor: pointer;
@@ -169,4 +179,7 @@ header .container .search-holder .text-holder i {
 }
 header .container .search-holder li {
   list-style-type: none;
+}
+header .container .search-holder svg {
+  cursor: pointer;
 }
