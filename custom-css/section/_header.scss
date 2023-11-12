@@ -94,6 +94,20 @@ header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    height: 80vh;
+    height: 70vh;
+    .header-title {
+      flex-direction: row;
+      justify-content: center;
+    }
+    span {
+      font-family: Inter;
+      font-size: $sm-font;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+      color: $gray-color;
+    }
   }
 }

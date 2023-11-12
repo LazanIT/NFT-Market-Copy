@@ -99,5 +99,19 @@ header .container {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 80vh;
+  height: 70vh;
+}
+header .container .header-title {
+  flex-direction: row;
+  justify-content: center;
+}
+header .container span {
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #7780a1;
 }
