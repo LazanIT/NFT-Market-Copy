@@ -146,6 +146,26 @@ header .container .search-holder {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  text-align: center;
+}
+header .container .search-holder #select {
+  cursor: pointer;
+  position: relative;
+}
+header .container .search-holder #select ul {
+  position: absolute;
+  top: 150%;
+}
+header .container .search-holder .text-holder {
+  flex-direction: row;
+  gap: 1rem;
+}
+header .container .search-holder .text-holder p {
+  margin-top: 0;
+  line-height: 20px;
+}
+header .container .search-holder .text-holder i {
+  font-size: 1.5rem;
 }
 header .container .search-holder li {
   list-style-type: none;
