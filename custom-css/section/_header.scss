@@ -95,6 +95,7 @@ header {
     flex-direction: column;
     text-align: center;
     height: 70vh;
+    gap: 1rem;
     .header-title {
       flex-direction: row;
       justify-content: center;
@@ -114,9 +115,20 @@ header {
       letter-spacing: 0.2rem;
       text-transform: uppercase;
       color: $gray-color;
+      margin-bottom: 50px;
     }
     .left-margin {
-      margin-left: 200px;
+      margin-left: 120px;
+    }
+    .margin-right {
+      margin-right: 80px;
+    }
+    p {
+      font-family: Inter;
+      font-size: $md-font;
+      font-weight: 400;
+      color: $gray-color;
+      margin-top: 30px;
     }
   }
 }

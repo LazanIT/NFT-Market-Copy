@@ -100,6 +100,7 @@ header .container {
   flex-direction: column;
   text-align: center;
   height: 70vh;
+  gap: 1rem;
 }
 header .container .header-title {
   flex-direction: row;
@@ -120,7 +121,18 @@ header .container span {
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   color: #7780a1;
+  margin-bottom: 50px;
 }
 header .container .left-margin {
-  margin-left: 200px;
+  margin-left: 120px;
+}
+header .container .margin-right {
+  margin-right: 80px;
+}
+header .container p {
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #7780a1;
+  margin-top: 30px;
 }
