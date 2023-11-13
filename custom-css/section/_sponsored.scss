@@ -1,16 +1,21 @@
-.container {
+.sponsored {
+  width: 30%;
+  margin: 0 auto 0 auto;
   &:hover {
     img {
       filter: blur(15px);
       transform: scale(0.9);
       opacity: 0.5;
+      cursor: pointer;
     }
   }
   .icon-holder {
-    justify-content: center;
-    gap: 6rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 70px;
   }
   img {
+    transition: all 0.5s ease-in-out;
     &:hover {
       filter: blur(0px);
       transform: scale(1.1);

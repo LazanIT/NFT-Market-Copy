@@ -209,16 +209,25 @@ header .container .search-holder svg {
   cursor: pointer;
 }
 
-.container:hover img {
+.sponsored {
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+.sponsored:hover img {
   filter: blur(15px);
   transform: scale(0.9);
   opacity: 0.5;
+  cursor: pointer;
 }
-.container .icon-holder {
-  justify-content: center;
-  gap: 6rem;
+.sponsored .icon-holder {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 70px;
 }
-.container img:hover {
+.sponsored img {
+  transition: all 0.5s ease-in-out;
+}
+.sponsored img:hover {
   filter: blur(0px);
   transform: scale(1.1);
   opacity: 1;
