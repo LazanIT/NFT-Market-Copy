@@ -147,9 +147,10 @@ header .container .search-holder {
   align-items: center;
   padding: 1rem 1.5rem;
   text-align: center;
+  margin-top: 1rem;
 }
 header .container .search-holder input {
-  opacity: 0.5;
+  opacity: 0.6;
   color: #bbc0d0;
   font-family: "Inter";
   font-size: 1rem;
