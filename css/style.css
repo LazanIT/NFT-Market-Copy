@@ -209,7 +209,17 @@ header .container .search-holder svg {
   cursor: pointer;
 }
 
-.sponsored .icon-holder {
+.container:hover img {
+  filter: blur(15px);
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+.container .icon-holder {
   justify-content: center;
   gap: 6rem;
+}
+.container img:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
 }
