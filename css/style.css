@@ -208,3 +208,8 @@ header .container .search-holder .text-holder i {
 header .container .search-holder svg {
   cursor: pointer;
 }
+
+.sponsored .icon-holder {
+  justify-content: center;
+  gap: 6rem;
+}
