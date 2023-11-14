@@ -246,3 +246,9 @@ header .container .search-holder svg {
 .latest-auction .courasel-holder {
   gap: 2rem;
 }
+.latest-auction .courasel-holder .image-holder {
+  justify-content: space-around;
+}
+.latest-auction .courasel-holder .image-holder .text-holder h3 {
+  font-size: 1rem;
+}

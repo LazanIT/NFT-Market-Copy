@@ -9,5 +9,13 @@
   }
   .courasel-holder {
     gap: 2rem;
+    .image-holder {
+      justify-content: space-around;
+      .text-holder {
+        h3 {
+          font-size: 1rem;
+        }
+      }
+    }
   }
 }
