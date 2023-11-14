@@ -232,3 +232,17 @@ header .container .search-holder svg {
   transform: scale(1.1);
   opacity: 1;
 }
+
+.latest-auction {
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10rem;
+  align-items: center;
+  gap: 3rem;
+}
+.latest-auction h1 {
+  font-size: 2.25rem;
+}
+.latest-auction .courasel-holder {
+  gap: 2rem;
+}
