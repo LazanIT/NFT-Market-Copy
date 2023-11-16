@@ -15,6 +15,10 @@ body {
   display: flex;
 }
 
+section {
+  margin: 10rem 0 2rem 0;
+}
+
 header nav {
   border-radius: 10px;
   justify-content: space-between;
@@ -236,7 +240,6 @@ header .container .search-holder svg {
 .latest-auction {
   justify-content: center;
   flex-direction: column;
-  margin-top: 10rem;
   align-items: center;
   gap: 3rem;
 }
@@ -251,4 +254,16 @@ header .container .search-holder svg {
 }
 .latest-auction .courasel-holder .image-holder .text-holder h3 {
   font-size: 1rem;
+}
+.latest-auction .courasel-holder .image-holder .text-holder p {
+  border-radius: 0.25rem;
+  background: rgba(42, 39, 201, 0.1);
+  padding: 0.5rem 0.875rem;
+  align-items: center;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2a27c9;
+  gap: 0.625rem;
+  text-align: center;
 }

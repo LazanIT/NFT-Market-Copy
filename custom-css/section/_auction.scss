@@ -15,6 +15,18 @@
         h3 {
           font-size: 1rem;
         }
+        p {
+          border-radius: 0.25rem;
+          background: rgba(42, 39, 201, 0.1);
+          padding: 0.5rem 0.875rem;
+          align-items: center;
+          display: inline-flex;
+          font-size: $sm-font;
+          font-weight: $weight-600;
+          color: $blue-purple;
+          gap: 0.625rem;
+          text-align: center;
+        }
       }
     }
   }
