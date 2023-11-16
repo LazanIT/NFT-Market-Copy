@@ -11,6 +11,13 @@
     gap: 2rem;
     .image-holder {
       justify-content: space-around;
+      padding: 10px;
+      img {
+        width: 25rem;
+        height: 32.5rem;
+        flex-shrink: 0;
+        border-radius: 10px;
+      }
       .text-holder {
         h3 {
           font-size: 1rem;

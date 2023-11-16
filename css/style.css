@@ -251,6 +251,13 @@ header .container .search-holder svg {
 }
 .latest-auction .courasel-holder .image-holder {
   justify-content: space-around;
+  padding: 10px;
+}
+.latest-auction .courasel-holder .image-holder img {
+  width: 25rem;
+  height: 32.5rem;
+  flex-shrink: 0;
+  border-radius: 10px;
 }
 .latest-auction .courasel-holder .image-holder .text-holder h3 {
   font-size: 1rem;
