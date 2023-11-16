@@ -252,6 +252,8 @@ header .container .search-holder svg {
 .latest-auction .courasel-holder .image-holder {
   justify-content: space-around;
   padding: 10px;
+  flex-direction: column;
+  gap: 10px;
 }
 .latest-auction .courasel-holder .image-holder img {
   width: 25rem;
@@ -273,4 +275,11 @@ header .container .search-holder svg {
   color: #2a27c9;
   gap: 0.625rem;
   text-align: center;
+}
+.latest-auction .courasel-holder .image-holder .icon-holder {
+  display: inline-flex;
+  gap: 0.3rem;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
 }

@@ -12,6 +12,8 @@
     .image-holder {
       justify-content: space-around;
       padding: 10px;
+      flex-direction: column;
+      gap: 10px;
       img {
         width: 25rem;
         height: 32.5rem;
@@ -34,6 +36,13 @@
           gap: 0.625rem;
           text-align: center;
         }
+      }
+      .icon-holder {
+        display: inline-flex;
+        gap: 0.3rem;
+        font-family: "Inter";
+        font-size: $sm-font;
+        font-weight: 400;
       }
     }
   }
