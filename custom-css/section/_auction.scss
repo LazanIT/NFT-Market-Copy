@@ -44,6 +44,26 @@
         font-size: $sm-font;
         font-weight: 400;
       }
+      .people-holder {
+        justify-content: space-between;
+        align-items: center;
+        .img-text-holder {
+          display: inline-flex;
+          align-items: center;
+          gap: 1rem;
+          p {
+            color: $gray-color;
+            font-family: "Inter";
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 10px;
+          }
+        }
+        i {
+          font-size: $md-font;
+          color: $gray-color;
+        }
+      }
     }
   }
 }

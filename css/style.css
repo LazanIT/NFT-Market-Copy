@@ -283,3 +283,23 @@ header .container .search-holder svg {
   font-size: 1rem;
   font-weight: 400;
 }
+.latest-auction .courasel-holder .image-holder .people-holder {
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-auction .courasel-holder .image-holder .people-holder .img-text-holder {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+.latest-auction .courasel-holder .image-holder .people-holder .img-text-holder p {
+  color: #7780a1;
+  font-family: "Inter";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 10px;
+}
+.latest-auction .courasel-holder .image-holder .people-holder i {
+  font-size: 1.5rem;
+  color: #7780a1;
+}
