@@ -59,9 +59,20 @@
             line-height: 10px;
           }
         }
+        button {
+          border: none;
+          background-color: transparent;
+        }
         i {
           font-size: $md-font;
           color: $gray-color;
+          cursor: pointer;
+          transition: all 0.4s linear;
+        }
+      }
+      .red-heart {
+        i {
+          color: red;
         }
       }
     }

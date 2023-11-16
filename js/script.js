@@ -15,3 +15,8 @@ categories.forEach((category) => {
     selectedCategory.innerText = category.innerText;
   });
 });
+// Heart changing color
+let heartIcon = document.getElementById("heart");
+heartIcon.addEventListener("click", () => {
+  heartIcon.classList.toggle("red-heart");
+});
