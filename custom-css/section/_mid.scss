@@ -3,12 +3,26 @@
   padding: 20px;
   .text-holder {
     width: 35%;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
     span {
       font-family: "Inter";
       text-transform: uppercase;
       font-size: $sm-font;
       font-weight: 500;
       color: $light-gray;
+    }
+    h1 {
+      font-size: $xl-font;
+      font-weight: $weight-600;
+      line-height: 100%;
+    }
+    p {
+      font-family: "Inter";
+      font-size: $sm-font;
+      font-weight: 400;
+      color: $gray-color;
     }
   }
   .btn-holder {
