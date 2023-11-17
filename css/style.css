@@ -312,3 +312,14 @@ header .container .search-holder svg {
 .latest-auction .courasel-holder .image-holder .red-heart i {
   color: red;
 }
+
+.mid-section {
+  justify-content: space-around;
+  padding: 20px;
+}
+.mid-section .text-holder {
+  width: 35%;
+}
+.mid-section .btn-holder {
+  width: 35%;
+}
