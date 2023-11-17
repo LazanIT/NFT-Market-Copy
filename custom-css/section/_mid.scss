@@ -3,6 +3,13 @@
   padding: 20px;
   .text-holder {
     width: 35%;
+    span {
+      font-family: "Inter";
+      text-transform: uppercase;
+      font-size: $sm-font;
+      font-weight: 500;
+      color: $light-gray;
+    }
   }
   .btn-holder {
     width: 35%;
