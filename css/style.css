@@ -344,3 +344,13 @@ header .container .search-holder svg {
 .mid-section .btn-holder {
   width: 35%;
 }
+.mid-section .btn-holder .get-btn {
+  border: none;
+  border-radius: 0.75rem;
+  background: linear-gradient(104deg, #4745d0 0%, #2a27c9 60.23%);
+  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset, -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  font-family: 600;
+  font-size: 1rem;
+}
