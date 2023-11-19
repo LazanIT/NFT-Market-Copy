@@ -391,7 +391,18 @@ header .container .search-holder svg {
 
 .smile-section {
   justify-content: space-around;
-  padding: 20px;
+  padding: 40px;
+}
+.smile-section .smile-image-holder .smile-img {
+  position: absolute;
+  z-index: 1;
+  left: 250px;
+  margin-top: 180px;
+}
+.smile-section .smile-image-holder .cloud-img {
+  position: relative;
+  top: -20px;
+  left: 250px;
 }
 .smile-section .smile-text-holder {
   width: 35%;
@@ -416,4 +427,10 @@ header .container .search-holder svg {
   font-size: 1rem;
   font-weight: 400;
   color: #7780a1;
+}
+.smile-section .smile-text-holder .icon-holder {
+  gap: 1.5rem;
+}
+.smile-section .smile-text-holder .icon-holder .text-icon h4 {
+  margin-top: 10px;
 }

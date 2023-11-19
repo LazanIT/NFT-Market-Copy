@@ -1,8 +1,17 @@
 .smile-section {
   justify-content: space-around;
-  padding: 20px;
+  padding: 40px;
   .smile-image-holder {
     .smile-img {
+      position: absolute;
+      z-index: 1;
+      left: 250px;
+      margin-top: 180px;
+    }
+    .cloud-img {
+      position: relative;
+      top: -20px;
+      left: 250px;
     }
   }
   .smile-text-holder {
@@ -27,6 +36,14 @@
       font-size: $sm-font;
       font-weight: 400;
       color: $gray-color;
+    }
+    .icon-holder {
+      gap: 1.5rem;
+      .text-icon {
+        h4 {
+          margin-top: 10px;
+        }
+      }
     }
   }
 }
