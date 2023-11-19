@@ -388,3 +388,32 @@ header .container .search-holder svg {
   position: relative;
   top: -140px;
 }
+
+.smile-section {
+  justify-content: space-around;
+  padding: 20px;
+}
+.smile-section .smile-text-holder {
+  width: 35%;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.smile-section .smile-text-holder span {
+  font-family: "Inter";
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #bbc0d0;
+}
+.smile-section .smile-text-holder h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+.smile-section .smile-text-holder p {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #7780a1;
+}
