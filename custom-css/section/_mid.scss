@@ -61,4 +61,14 @@
       }
     }
   }
+  .bucket-img {
+    position: absolute;
+    right: 485px;
+    margin-top: 50px;
+    z-index: 1;
+  }
+  .triangle-img {
+    position: relative;
+    top: -140px;
+  }
 }

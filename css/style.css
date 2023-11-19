@@ -375,3 +375,13 @@ header .container .search-holder svg {
 .mid-section .btn-holder .learn-btn:hover {
   transform: translateY(3px);
 }
+.mid-section .bucket-img {
+  position: absolute;
+  right: 485px;
+  margin-top: 50px;
+  z-index: 1;
+}
+.mid-section .triangle-img {
+  position: relative;
+  top: -140px;
+}
