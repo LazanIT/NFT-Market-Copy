@@ -353,4 +353,17 @@ header .container .search-holder svg {
   color: #fff;
   font-family: 600;
   font-size: 1rem;
+  cursor: pointer;
+}
+.mid-section .btn-holder .learn-btn {
+  border-radius: 0.75rem;
+  border: none;
+  border: 2px solid var(--on-white-grey-100, #7780a1);
+  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset, -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
+  padding: 1rem 1.5rem;
+  font-family: 600;
+  font-size: 1rem;
+  color: #7780a1;
+  background-color: #fff;
+  cursor: pointer;
 }

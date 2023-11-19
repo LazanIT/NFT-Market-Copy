@@ -37,6 +37,20 @@
       color: $background-rest-white;
       font-family: $weight-600;
       font-size: $sm-font;
+      cursor: pointer;
+    }
+    .learn-btn {
+      border-radius: 0.75rem;
+      border: none;
+      border: 2px solid var(--on-white-grey-100, #7780a1);
+      box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.1) inset,
+        -4px -4px 4px 0px rgba(0, 0, 0, 0.1) inset;
+      padding: 1rem 1.5rem;
+      font-family: $weight-600;
+      font-size: $sm-font;
+      color: $gray-color;
+      background-color: $background-rest-white;
+      cursor: pointer;
     }
   }
 }
