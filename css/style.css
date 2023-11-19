@@ -354,6 +354,10 @@ header .container .search-holder svg {
   font-family: 600;
   font-size: 1rem;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.mid-section .btn-holder .get-btn:hover {
+  transform: translateY(3px);
 }
 .mid-section .btn-holder .learn-btn {
   border-radius: 0.75rem;
@@ -366,4 +370,8 @@ header .container .search-holder svg {
   color: #7780a1;
   background-color: #fff;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.mid-section .btn-holder .learn-btn:hover {
+  transform: translateY(3px);
 }

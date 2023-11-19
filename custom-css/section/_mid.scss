@@ -38,6 +38,10 @@
       font-family: $weight-600;
       font-size: $sm-font;
       cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transform: translateY(3px);
+      }
     }
     .learn-btn {
       border-radius: 0.75rem;
@@ -51,6 +55,10 @@
       color: $gray-color;
       background-color: $background-rest-white;
       cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transform: translateY(3px);
+      }
     }
   }
 }
