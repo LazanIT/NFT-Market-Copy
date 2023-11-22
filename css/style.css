@@ -457,3 +457,23 @@ header .container .search-holder svg {
   font-weight: 600;
   letter-spacing: 1px;
 }
+.live-auction .live-text-btn .selection-holder {
+  display: inline-flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.live-auction .live-text-btn .selection-holder button {
+  border-radius: 0.5rem;
+  border: 2px solid #bbc0d0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #7780a1;
+  font-weight: 600;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.live-auction .live-text-btn .selection-holder button:hover {
+  transform: translateY(-4px);
+  background-color: rgb(73, 72, 72);
+  color: #fff;
+}

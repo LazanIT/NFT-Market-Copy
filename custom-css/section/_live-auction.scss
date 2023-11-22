@@ -18,5 +18,25 @@
       font-weight: $weight-600;
       letter-spacing: 1px;
     }
+    .selection-holder {
+      display: inline-flex;
+      justify-content: center;
+      gap: 1rem;
+      button {
+        border-radius: 0.5rem;
+        border: 2px solid $light-gray;
+        padding: 0.5rem;
+        font-size: $sm-font;
+        color: $gray-color;
+        font-weight: $weight-600;
+        transition: all 0.2s linear;
+        cursor: pointer;
+        &:hover {
+          transform: translateY(-4px);
+          background-color: rgb(73, 72, 72);
+          color: $background-rest-white;
+        }
+      }
+    }
   }
 }
