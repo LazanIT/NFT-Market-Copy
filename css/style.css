@@ -56,6 +56,10 @@ section {
   transform: translateY(3px);
 }
 
+.red-heart i {
+  color: red;
+}
+
 header nav {
   border-radius: 10px;
   justify-content: space-between;
@@ -347,9 +351,6 @@ header .container .search-holder svg {
   cursor: pointer;
   transition: all 0.4s linear;
 }
-.latest-auction .courasel-holder .image-holder .red-heart i {
-  color: red;
-}
 
 .mid-section {
   justify-content: space-around;
@@ -439,6 +440,8 @@ header .container .search-holder svg {
 .live-auction {
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+  width: 100%;
 }
 .live-auction .live-text-btn {
   gap: 1rem;
@@ -476,4 +479,10 @@ header .container .search-holder svg {
   transform: translateY(-4px);
   background-color: rgb(73, 72, 72);
   color: #fff;
+}
+.live-auction .card-holder {
+  justify-content: center;
+  margin: 35px auto 0 auto;
+  gap: 10px;
+  width: 70%;
 }
