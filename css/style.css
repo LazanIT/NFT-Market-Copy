@@ -532,3 +532,50 @@ header .container .search-holder svg {
 .live-auction .card-holder .card .red-heart i {
   color: red;
 }
+.live-auction .button {
+  margin: 20px auto 0 auto;
+  border: none;
+  background: transparent;
+  width: 10%;
+  height: 5%;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #060714;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.live-auction .button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0cf;
+  border-radius: 10px;
+  z-index: -2;
+}
+.live-auction .button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #008fb3;
+  transition: all 0.3s;
+  border-radius: 10px;
+  z-index: -1;
+}
+.live-auction .button:hover {
+  color: #fff;
+}
+.live-auction .button:hover:before {
+  width: 100%;
+}
