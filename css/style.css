@@ -485,6 +485,9 @@ header .container .search-holder svg {
   gap: 10px;
   width: 70%;
 }
+.live-auction .card-holder .card img {
+  border-radius: 10px;
+}
 .live-auction .red-heart i {
   color: red;
 }
