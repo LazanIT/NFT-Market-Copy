@@ -56,10 +56,6 @@ section {
   transform: translateY(3px);
 }
 
-.red-heart i {
-  color: red;
-}
-
 header nav {
   border-radius: 10px;
   justify-content: space-between;
@@ -350,6 +346,9 @@ header .container .search-holder svg {
   color: #7780a1;
   cursor: pointer;
   transition: all 0.4s linear;
+}
+.latest-auction .courasel-holder .image-holder .people-holder .red-heart i {
+  color: red;
 }
 
 .mid-section {

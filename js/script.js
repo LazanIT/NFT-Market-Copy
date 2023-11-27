@@ -21,14 +21,5 @@ let changedHeart;
 heartIcon.forEach((heart) => {
   heart.addEventListener("click", () => {
     changedHeart = heart.classList.toggle("red-heart");
-    storageData();
   });
 });
-
-const storageData = () => {
-  //                      name      value
-  localStorage.setItem("heart", heartIcon);
-};
-const saveItem = () => {};
-
-saveItem();
