@@ -589,9 +589,26 @@ header .container .search-holder svg {
   max-width: 1440px;
   margin: 10rem auto 0 auto;
 }
+.icons-section hr {
+  background-color: #bbc0d0;
+  height: 1px;
+}
 .icons-section .card-holder {
   justify-content: center;
   text-align: center;
-  gap: 1.5rem;
-  padding: 20px;
+  gap: 2rem;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+.icons-section .card-holder .icon-card h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.icons-section .card-holder .icon-card p {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #7780a1;
 }

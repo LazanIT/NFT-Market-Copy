@@ -1,11 +1,29 @@
 .icons-section {
   max-width: 1440px;
   margin: 10rem auto 0 auto;
-
+  hr {
+    background-color: $light-gray;
+    height: 1px;
+  }
   .card-holder {
     justify-content: center;
     text-align: center;
-    gap: 1.5rem;
-    padding: 20px;
+    gap: 2rem;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    .icon-card {
+      h1 {
+        font-size: $lg-xl-font;
+        font-weight: $weight-600;
+        letter-spacing: 1px;
+      }
+      p {
+        font-family: "Inter";
+        font-size: $sm-font;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        color: $gray-color;
+      }
+    }
   }
 }
