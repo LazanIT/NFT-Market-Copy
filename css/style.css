@@ -512,6 +512,7 @@ header .container .search-holder svg {
 .live-auction .card-holder .card .card-icon i {
   font-size: 1.5rem;
   line-height: 30px;
+  color: #bbc0d0;
 }
 .live-auction .card-holder .card .heart-holder {
   display: inline-flex;
