@@ -68,6 +68,10 @@
           font-size: $sm-font;
           font-weight: $weight-600;
         }
+        i {
+          font-size: $md-font;
+          line-height: 30px;
+        }
       }
       .heart-holder {
         display: inline-flex;
