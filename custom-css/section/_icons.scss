@@ -1,4 +1,11 @@
 .icons-section {
   max-width: 1440px;
   margin: 10rem auto 0 auto;
+
+  .card-holder {
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 20px;
+  }
 }
