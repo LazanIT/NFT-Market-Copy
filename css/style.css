@@ -584,3 +584,8 @@ header .container .search-holder svg {
 .live-auction .button:hover:before {
   width: 100%;
 }
+
+.icons-section {
+  max-width: 1440px;
+  margin: 10rem auto 0 auto;
+}
