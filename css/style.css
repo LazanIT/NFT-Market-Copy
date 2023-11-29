@@ -612,3 +612,14 @@ header .container .search-holder svg {
   letter-spacing: 0.5px;
   color: #7780a1;
 }
+
+.folder {
+  max-width: 1400px;
+  height: 560px;
+  border-radius: 0px, 20px, 20px, 20px;
+  background-color: #f2f3f6;
+  margin: 10rem auto 0 auto;
+}
+.folder img {
+  margin-top: -20px;
+}
