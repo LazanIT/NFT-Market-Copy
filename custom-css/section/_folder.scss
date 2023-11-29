@@ -7,4 +7,36 @@
   img {
     margin-top: -20px;
   }
+  .folder-holder {
+    justify-content: center;
+    height: 100%;
+    .folder-text {
+      justify-content: center;
+      align-items: flex-start;
+      width: 40%;
+      flex-direction: column;
+      gap: 2rem;
+      span {
+        font-family: "Inter";
+        text-transform: uppercase;
+        font-size: $sm-font;
+        font-weight: 500;
+        color: $light-gray;
+      }
+      h1 {
+        font-size: $lg-xl-font;
+        font-weight: $weight-600;
+        line-height: 100%;
+      }
+      p {
+        font-family: "Inter";
+        font-size: $sm-font;
+        font-weight: 400;
+        color: $gray-color;
+      }
+    }
+    .folder-items {
+      width: 40%;
+    }
+  }
 }

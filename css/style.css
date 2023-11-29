@@ -623,3 +623,35 @@ header .container .search-holder svg {
 .folder img {
   margin-top: -20px;
 }
+.folder .folder-holder {
+  justify-content: center;
+  height: 100%;
+}
+.folder .folder-holder .folder-text {
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  flex-direction: column;
+  gap: 2rem;
+}
+.folder .folder-holder .folder-text span {
+  font-family: "Inter";
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #bbc0d0;
+}
+.folder .folder-holder .folder-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+.folder .folder-holder .folder-text p {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #7780a1;
+}
+.folder .folder-holder .folder-items {
+  width: 40%;
+}
