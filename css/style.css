@@ -554,6 +554,7 @@ header .container .search-holder svg {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  cursor: grab;
 }
 .live-auction .button:after {
   content: "";
