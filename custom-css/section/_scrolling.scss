@@ -3,7 +3,14 @@
   flex-direction: row;
   gap: 1.5rem;
   .scroll-card {
+    gap: 0.5rem;
     text-align: center;
     flex-direction: column;
+    span {
+      font-family: "Inter";
+      font-weight: 400;
+      font-size: $sm-font;
+      color: $gray-color;
+    }
   }
 }
