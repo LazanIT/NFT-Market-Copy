@@ -658,5 +658,9 @@ header .container .search-holder svg {
 }
 
 .scrolling {
-  width: 100%;
+  flex-wrap: wrap !important;
+}
+.scrolling .scroll-card {
+  text-align: center;
+  flex-direction: column;
 }
