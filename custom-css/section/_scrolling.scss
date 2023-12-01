@@ -1,5 +1,7 @@
 .scrolling {
-  flex-wrap: wrap !important;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1.5rem;
   .scroll-card {
     text-align: center;
     flex-direction: column;
