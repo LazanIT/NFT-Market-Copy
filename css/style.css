@@ -710,3 +710,33 @@ footer .items-holder .first-box .text p {
   font-size: 1rem;
   font-weight: 400;
 }
+footer .items-holder .second-box {
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .items-holder .second-box .text {
+  flex-direction: column;
+  padding: 1.5rem 0 0 2rem;
+  gap: 1rem;
+}
+footer .items-holder .second-box .text a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+footer .items-holder .second-box .btn-holder {
+  padding: 0 0 0 2rem;
+}
+footer .items-holder .second-box .icons {
+  padding: 0 0 1.5rem 2rem;
+  display: inline-flex;
+  gap: 1rem;
+}
+footer .items-holder .second-box .icons a {
+  text-decoration: none;
+}
+footer .items-holder .second-box .icons a i {
+  font-size: 1.5rem;
+  color: #7780a1;
+}

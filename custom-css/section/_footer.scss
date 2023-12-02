@@ -28,5 +28,35 @@ footer {
         }
       }
     }
+    .second-box {
+      flex-direction: column;
+      justify-content: space-between;
+      .text {
+        flex-direction: column;
+        padding: 1.5rem 0 0 2rem;
+        gap: 1rem;
+        a {
+          text-decoration: none;
+          font-size: $sm-font;
+          font-weight: $weight-600;
+          color: black;
+        }
+      }
+      .btn-holder {
+        padding: 0 0 0 2rem;
+      }
+      .icons {
+        padding: 0 0 1.5rem 2rem;
+        display: inline-flex;
+        gap: 1rem;
+        a {
+          text-decoration: none;
+          i {
+            font-size: 1.5rem;
+            color: $gray-color;
+          }
+        }
+      }
+    }
   }
 }
