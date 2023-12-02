@@ -470,6 +470,7 @@ header .container .search-holder svg {
   gap: 1rem;
 }
 .live-auction .live-text-btn .selection-holder button {
+  background-color: #fff;
   border-radius: 0.5rem;
   border: 2px solid #bbc0d0;
   padding: 0.5rem;
@@ -692,6 +693,7 @@ footer .items-holder .box {
 footer .items-holder .first-box {
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 1.25rem 0rem 0rem 1.25rem;
 }
 footer .items-holder .first-box .logo {
   display: inline-flex;
@@ -739,4 +741,37 @@ footer .items-holder .second-box .icons a {
 footer .items-holder .second-box .icons a i {
   font-size: 1.5rem;
   color: #7780a1;
+}
+footer .items-holder .third-box {
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 0rem 1.25rem 1.25rem 0rem;
+}
+footer .items-holder .third-box p {
+  padding: 3rem 3rem 0 3rem;
+  color: #bbc0d0;
+}
+footer .items-holder .third-box .newsletter {
+  box-shadow: 0px 25px 75px 0px rgba(6, 7, 20, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto 3rem auto;
+  display: inline-flex;
+  justify-content: space-between;
+}
+footer .items-holder .third-box .newsletter input {
+  outline: none;
+  border: none;
+}
+footer .items-holder .third-box .newsletter input::placeholder {
+  color: #bbc0d0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+footer .items-holder .third-box .newsletter a {
+  text-decoration: none;
+  color: #2a27c9;
+  font-size: 1rem;
+  font-weight: 600;
 }
