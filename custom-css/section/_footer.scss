@@ -1,0 +1,32 @@
+footer {
+  .items-holder {
+    justify-content: center;
+    flex-wrap: wrap;
+    .box {
+      border: 1px solid $light-gray;
+      width: 465px;
+      height: 397px;
+    }
+    .first-box {
+      flex-direction: column;
+      justify-content: space-between;
+      .logo {
+        display: inline-flex;
+        padding: 1rem 0 0 2rem;
+        margin-top: 2rem;
+        gap: 1rem;
+      }
+      .text {
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+        padding: 1rem 0 0 2rem;
+        p {
+          color: $light-gray;
+          font-family: "Inter";
+          font-size: $sm-font;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

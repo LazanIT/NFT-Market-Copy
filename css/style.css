@@ -57,8 +57,8 @@ section {
 
 footer {
   max-width: 1440px;
-  margin: auto;
-  margin-top: 10rem;
+  margin: 10rem auto 0 auto;
+  padding-bottom: 50px;
 }
 
 header nav {
@@ -678,4 +678,35 @@ header .container .search-holder svg {
   font-weight: 400;
   font-size: 1rem;
   color: #7780a1;
+}
+
+footer .items-holder {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .items-holder .box {
+  border: 1px solid #bbc0d0;
+  width: 465px;
+  height: 397px;
+}
+footer .items-holder .first-box {
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .items-holder .first-box .logo {
+  display: inline-flex;
+  padding: 1rem 0 0 2rem;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+footer .items-holder .first-box .text {
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0 0 2rem;
+}
+footer .items-holder .first-box .text p {
+  color: #bbc0d0;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
 }
