@@ -858,3 +858,6 @@ footer .items-holder .third-box .newsletter a {
   width: 90%;
   margin-top: 2rem;
 }
+.triple .hottest-sale-box #second-box {
+  opacity: 20%;
+}
