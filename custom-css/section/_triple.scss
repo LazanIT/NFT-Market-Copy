@@ -16,8 +16,7 @@
       font-weight: $weight-600;
     }
     .box-holder {
-      padding: 10px;
-      gap: 0.5rem;
+      gap: 1rem;
       .normal-box {
         width: 215px;
         height: 500px;
@@ -29,6 +28,25 @@
         h5 {
           font-size: $sm-font;
           font-weight: $weight-600;
+        }
+        .icon-holder {
+          justify-content: space-between;
+          i {
+            font-size: $md-font;
+            color: $light-gray;
+            line-height: 40px;
+          }
+          p {
+            border-radius: 0.25rem;
+            background: rgba(42, 39, 201, 0.1);
+            padding: 0.475rem 0.625rem;
+            align-items: center;
+            font-size: $sm-font;
+            font-weight: $weight-600;
+            color: $blue-purple;
+            gap: 0.625rem;
+            text-align: center;
+          }
         }
       }
     }

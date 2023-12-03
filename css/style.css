@@ -795,8 +795,7 @@ footer .items-holder .third-box .newsletter a {
   font-weight: 600;
 }
 .triple .hottest-sale-box .box-holder {
-  padding: 10px;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 .triple .hottest-sale-box .box-holder .normal-box {
   width: 215px;
@@ -810,4 +809,23 @@ footer .items-holder .third-box .newsletter a {
 .triple .hottest-sale-box .box-holder .normal-box h5 {
   font-size: 1rem;
   font-weight: 600;
+}
+.triple .hottest-sale-box .box-holder .normal-box .icon-holder {
+  justify-content: space-between;
+}
+.triple .hottest-sale-box .box-holder .normal-box .icon-holder i {
+  font-size: 1.5rem;
+  color: #bbc0d0;
+  line-height: 40px;
+}
+.triple .hottest-sale-box .box-holder .normal-box .icon-holder p {
+  border-radius: 0.25rem;
+  background: rgba(42, 39, 201, 0.1);
+  padding: 0.475rem 0.625rem;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2a27c9;
+  gap: 0.625rem;
+  text-align: center;
 }
