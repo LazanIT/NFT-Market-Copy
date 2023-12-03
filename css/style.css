@@ -780,16 +780,34 @@ footer .items-holder .third-box .newsletter a {
   margin: 10rem auto 2rem 5rem;
 }
 .triple .hottest-sale-box {
-  width: 448px;
-  height: 841px;
+  width: 440px;
+  height: 800px;
   border: 1px solid #bbc0d0;
   border-radius: 10px;
   flex-direction: column;
   gap: 2rem;
-  align-items: center;
+  padding: 20px;
   justify-content: center;
+  align-items: center;
 }
 .triple .hottest-sale-box h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.triple .hottest-sale-box .box-holder {
+  padding: 10px;
+  gap: 0.5rem;
+}
+.triple .hottest-sale-box .box-holder .normal-box {
+  width: 215px;
+  height: 500px;
+  flex-direction: column;
+  gap: 1rem;
+}
+.triple .hottest-sale-box .box-holder .normal-box img {
+  border-radius: 10px;
+}
+.triple .hottest-sale-box .box-holder .normal-box h5 {
+  font-size: 1rem;
   font-weight: 600;
 }

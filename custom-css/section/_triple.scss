@@ -2,17 +2,35 @@
   margin: 10rem auto 2rem 5rem;
 
   .hottest-sale-box {
-    width: 448px;
-    height: 841px;
+    width: 440px;
+    height: 800px;
     border: 1px solid $light-gray;
     border-radius: 10px;
     flex-direction: column;
     gap: 2rem;
-    align-items: center;
+    padding: 20px;
     justify-content: center;
+    align-items: center;
     h1 {
-      font-size: $md-font;
+      font-size: $lg-font;
       font-weight: $weight-600;
+    }
+    .box-holder {
+      padding: 10px;
+      gap: 0.5rem;
+      .normal-box {
+        width: 215px;
+        height: 500px;
+        flex-direction: column;
+        gap: 1rem;
+        img {
+          border-radius: 10px;
+        }
+        h5 {
+          font-size: $sm-font;
+          font-weight: $weight-600;
+        }
+      }
     }
   }
 }
