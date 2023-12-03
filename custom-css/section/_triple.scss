@@ -48,7 +48,38 @@
             text-align: center;
           }
         }
+        hr {
+          background-color: $light-gray;
+          height: 5px;
+        }
+        .heart-holder {
+          justify-content: space-between;
+          span {
+            color: $light-gray;
+            font-size: 0.9rem;
+            font-weight: 400;
+          }
+          button {
+            border: none;
+            background-color: transparent;
+          }
+          i {
+            font-size: $md-font;
+            color: $gray-color;
+            cursor: pointer;
+            transition: all 0.4s linear;
+          }
+          .red-heart {
+            i {
+              color: red;
+            }
+          }
+        }
       }
+    }
+    .show-more {
+      width: 90%;
+      margin-top: 2rem;
     }
   }
 }

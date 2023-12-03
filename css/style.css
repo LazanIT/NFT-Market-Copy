@@ -829,3 +829,32 @@ footer .items-holder .third-box .newsletter a {
   gap: 0.625rem;
   text-align: center;
 }
+.triple .hottest-sale-box .box-holder .normal-box hr {
+  background-color: #bbc0d0;
+  height: 5px;
+}
+.triple .hottest-sale-box .box-holder .normal-box .heart-holder {
+  justify-content: space-between;
+}
+.triple .hottest-sale-box .box-holder .normal-box .heart-holder span {
+  color: #bbc0d0;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.triple .hottest-sale-box .box-holder .normal-box .heart-holder button {
+  border: none;
+  background-color: transparent;
+}
+.triple .hottest-sale-box .box-holder .normal-box .heart-holder i {
+  font-size: 1.5rem;
+  color: #7780a1;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.triple .hottest-sale-box .box-holder .normal-box .heart-holder .red-heart i {
+  color: red;
+}
+.triple .hottest-sale-box .show-more {
+  width: 90%;
+  margin-top: 2rem;
+}
