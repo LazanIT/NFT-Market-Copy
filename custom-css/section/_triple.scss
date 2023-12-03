@@ -1,0 +1,18 @@
+.triple {
+  margin: 10rem auto 2rem 5rem;
+
+  .hottest-sale-box {
+    width: 448px;
+    height: 841px;
+    border: 1px solid $light-gray;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-size: $md-font;
+      font-weight: $weight-600;
+    }
+  }
+}

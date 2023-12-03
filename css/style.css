@@ -775,3 +775,21 @@ footer .items-holder .third-box .newsletter a {
   font-size: 1rem;
   font-weight: 600;
 }
+
+.triple {
+  margin: 10rem auto 2rem 5rem;
+}
+.triple .hottest-sale-box {
+  width: 448px;
+  height: 841px;
+  border: 1px solid #bbc0d0;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.triple .hottest-sale-box h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
