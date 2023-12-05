@@ -1,4 +1,3 @@
-// console.log(123);
 // Script for search categories
 const select = document.getElementById("select");
 const list = document.getElementById("list");
