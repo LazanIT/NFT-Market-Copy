@@ -909,9 +909,26 @@ footer .items-holder .third-box .newsletter a {
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #bbc0d0;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.triple .top-nft-box h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 20px;
+}
+.triple .top-nft-box .box-holder {
+  flex-direction: column;
+  padding: 20px;
+  gap: 2rem;
 }
 .triple .top-nft-box .box-holder .small-box {
+  width: 370px;
+  height: 120px;
   gap: 1rem;
+}
+.triple .top-nft-box .box-holder .small-box img {
+  border-radius: 10px;
 }
 .triple .top-nft-box .box-holder .small-box .small-text {
   justify-content: center;
