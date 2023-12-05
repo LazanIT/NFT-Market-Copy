@@ -861,3 +861,8 @@ footer .items-holder .third-box .newsletter a {
 .triple .hottest-sale-box #second-box {
   opacity: 20%;
 }
+.triple .get-started-box {
+  width: 440px;
+  height: 840px;
+  background-color: #1c1d29;
+}
