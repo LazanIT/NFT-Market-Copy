@@ -274,7 +274,7 @@ header .container .search-holder svg {
   grid-template-columns: auto auto auto auto;
   grid-gap: 70px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .sponsored .icon-holder {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -902,4 +902,25 @@ footer .items-holder .third-box .newsletter a {
 .triple .get-started-box .get-started {
   width: 90%;
   margin-bottom: 2rem;
+}
+.triple .top-nft-box {
+  max-width: 440px;
+  max-height: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #bbc0d0;
+}
+.triple .top-nft-box .box-holder .small-box {
+  gap: 1rem;
+}
+.triple .top-nft-box .box-holder .small-box .small-text {
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.triple .top-nft-box .box-holder .small-box .small-text .small-timer {
+  justify-content: space-between;
+}
+.triple .top-nft-box .box-holder .small-box .small-text .small-heart {
+  justify-content: space-between;
 }

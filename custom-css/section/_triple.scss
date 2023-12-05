@@ -118,4 +118,27 @@
       margin-bottom: 2rem;
     }
   }
+  .top-nft-box {
+    max-width: 440px;
+    max-height: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid $light-gray;
+    .box-holder {
+      .small-box {
+        gap: 1rem;
+        .small-text {
+          justify-content: center;
+          flex-direction: column;
+          gap: 0.5rem;
+          .small-timer {
+            justify-content: space-between;
+          }
+          .small-heart {
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
 }
