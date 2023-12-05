@@ -918,9 +918,45 @@ footer .items-holder .third-box .newsletter a {
   flex-direction: column;
   gap: 0.5rem;
 }
+.triple .top-nft-box .box-holder .small-box .small-text h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
 .triple .top-nft-box .box-holder .small-box .small-text .small-timer {
   justify-content: space-between;
 }
+.triple .top-nft-box .box-holder .small-box .small-text .small-timer i {
+  font-size: 1.5rem;
+  color: #7780a1;
+  line-height: 30px;
+}
+.triple .top-nft-box .box-holder .small-box .small-text .small-timer p {
+  background-color: rgba(42, 39, 201, 0.1);
+  padding: 0.375rem 0.625rem;
+  color: #2a27c9;
+  font-size: 1rem;
+  font-weight: 600;
+}
 .triple .top-nft-box .box-holder .small-box .small-text .small-heart {
   justify-content: space-between;
+}
+.triple .top-nft-box .box-holder .small-box .small-text .small-heart span {
+  font-family: "Inter";
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #bbc0d0;
+}
+.triple .top-nft-box .box-holder .small-box .small-text .small-heart button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.triple .top-nft-box .box-holder .small-box .small-text .small-heart button i {
+  font-size: 1.5rem;
+  color: #7780a1;
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+.triple .top-nft-box .box-holder .small-box .small-text .small-heart .red-heart i {
+  color: red;
 }

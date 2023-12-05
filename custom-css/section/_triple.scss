@@ -131,11 +131,49 @@
           justify-content: center;
           flex-direction: column;
           gap: 0.5rem;
+          h5 {
+            font-size: $sm-font;
+            font-weight: $weight-600;
+          }
           .small-timer {
             justify-content: space-between;
+            i {
+              font-size: $md-font;
+              color: $gray-color;
+              line-height: 30px;
+            }
+            p {
+              background-color: rgba(42, 39, 201, 0.1);
+              padding: 0.375rem 0.625rem;
+              color: #2a27c9;
+              font-size: 1rem;
+              font-weight: 600;
+            }
           }
           .small-heart {
             justify-content: space-between;
+            span {
+              font-family: "Inter";
+              font-size: 0.9rem;
+              font-weight: 400;
+              color: $light-gray;
+            }
+            button {
+              border: none;
+              outline: none;
+              background: transparent;
+              i {
+                font-size: $md-font;
+                color: $gray-color;
+                cursor: pointer;
+                transition: all 0.4s linear;
+              }
+            }
+            .red-heart {
+              i {
+                color: red;
+              }
+            }
           }
         }
       }
