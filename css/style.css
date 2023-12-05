@@ -863,12 +863,18 @@ footer .items-holder .third-box .newsletter a {
 }
 .triple .get-started-box {
   width: 440px;
-  height: 840px;
+  height: 820px;
+  padding: 20px;
+  border-radius: 10px;
   background-color: #1c1d29;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .triple .get-started-box .text-holder {
   justify-content: center;
   flex-direction: column;
+  padding: 40px;
 }
 .triple .get-started-box .text-holder h1 {
   color: #fff;
@@ -881,4 +887,7 @@ footer .items-holder .third-box .newsletter a {
   font-size: 0.9rem;
   font-weight: 400;
   color: #7780a1;
+}
+.triple .get-started-box .get-started {
+  width: 90%;
 }

@@ -87,11 +87,17 @@
   }
   .get-started-box {
     width: 440px;
-    height: 840px;
+    height: 820px;
+    padding: 20px;
+    border-radius: 10px;
     background-color: #1c1d29;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     .text-holder {
       justify-content: center;
       flex-direction: column;
+      padding: 40px;
       h1 {
         color: $background-rest-white;
         font-size: $md-font;
@@ -104,6 +110,9 @@
         font-weight: 400;
         color: $gray-color;
       }
+    }
+    .get-started {
+      width: 90%;
     }
   }
 }
