@@ -777,11 +777,14 @@ footer .items-holder .third-box .newsletter a {
 }
 
 .triple {
-  margin: 10rem auto 2rem 5rem;
+  margin: 10rem auto 2rem auto;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap !important;
 }
 .triple .hottest-sale-box {
-  width: 440px;
-  height: 800px;
+  max-width: 440px;
+  max-height: 800px;
   border: 1px solid #bbc0d0;
   border-radius: 10px;
   flex-direction: column;
@@ -862,8 +865,8 @@ footer .items-holder .third-box .newsletter a {
   opacity: 20%;
 }
 .triple .get-started-box {
-  width: 440px;
-  height: 820px;
+  max-width: 440px;
+  max-height: 800px;
   padding: 20px;
   border-radius: 10px;
   background-color: #1c1d29;
@@ -890,4 +893,5 @@ footer .items-holder .third-box .newsletter a {
 }
 .triple .get-started-box .get-started {
   width: 90%;
+  margin-bottom: 2rem;
 }
