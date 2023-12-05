@@ -89,5 +89,21 @@
     width: 440px;
     height: 840px;
     background-color: #1c1d29;
+    .text-holder {
+      justify-content: center;
+      flex-direction: column;
+      h1 {
+        color: $background-rest-white;
+        font-size: $md-font;
+        font-weight: $weight-600;
+        letter-spacing: 1px;
+      }
+      span {
+        font-family: "Inter";
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: $gray-color;
+      }
+    }
   }
 }

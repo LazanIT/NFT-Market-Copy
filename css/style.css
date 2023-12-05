@@ -866,3 +866,19 @@ footer .items-holder .third-box .newsletter a {
   height: 840px;
   background-color: #1c1d29;
 }
+.triple .get-started-box .text-holder {
+  justify-content: center;
+  flex-direction: column;
+}
+.triple .get-started-box .text-holder h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.triple .get-started-box .text-holder span {
+  font-family: "Inter";
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #7780a1;
+}
