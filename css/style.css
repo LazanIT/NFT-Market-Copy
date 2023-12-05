@@ -61,6 +61,9 @@ footer {
   padding-bottom: 50px;
 }
 
+header {
+  width: 100%;
+}
 header nav {
   border-radius: 10px;
   justify-content: space-between;
@@ -270,6 +273,11 @@ header .container .search-holder svg {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 70px;
+}
+@media screen and (max-width: 767px) {
+  .sponsored .icon-holder {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .sponsored img {
   transition: all 0.5s ease-in-out;
