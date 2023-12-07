@@ -22,3 +22,11 @@ heartIcon.forEach((heart) => {
     changedHeart = heart.classList.toggle("red-heart");
   });
 });
+
+// Dodajte JavaScript logiku za prikazivanje/skrivanje navigacije na mobilnim uređajima
+const navToggle = document.querySelector(".responsive-nav");
+const linkHolder = document.querySelector(".link-holder ul");
+
+navToggle.addEventListener("click", () => {
+  linkHolder.classList.toggle("show-links");
+});
