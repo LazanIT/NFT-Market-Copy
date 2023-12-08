@@ -231,7 +231,7 @@ header .container .search-holder {
   border-radius: 1rem;
   background: #fff;
   box-shadow: 0px 25px 75px 0px rgba(6, 7, 20, 0.1);
-  max-width: 40rem;
+  width: 40rem;
   height: 4rem;
   margin: 0 auto 0 auto;
   justify-content: space-between;
@@ -322,7 +322,6 @@ header .container .search-holder svg {
     width: 80%;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 2rem;
     justify-content: center;
     gap: 1rem;
   }
@@ -343,11 +342,6 @@ header .container .search-holder svg {
   grid-template-columns: auto auto auto auto;
   grid-gap: 70px;
 }
-@media screen and (max-width: 576px) {
-  .sponsored .icon-holder {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 .sponsored img {
   transition: all 0.5s ease-in-out;
 }
@@ -355,6 +349,22 @@ header .container .search-holder svg {
   filter: blur(0px);
   transform: scale(1.1);
   opacity: 1;
+}
+@media only screen and (max-width: 576px) {
+  .sponsored {
+    width: 70%;
+  }
+  .sponsored .icon-holder {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 576px) and (hover: none) {
+  .sponsored:hover img {
+    filter: inherit;
+    transform: scale(0.9);
+    opacity: 0.5;
+    cursor: pointer;
+  }
 }
 
 .latest-auction {
