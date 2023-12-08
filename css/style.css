@@ -239,6 +239,7 @@ header .container .search-holder {
   padding: 1rem 1.5rem;
   text-align: center;
   margin-top: 1rem;
+  flex-wrap: wrap !important;
 }
 header .container .search-holder input {
   opacity: 0.6;
@@ -298,6 +299,28 @@ header .container .search-holder .text-holder i {
 }
 header .container .search-holder svg {
   cursor: pointer;
+}
+@media only screen and (max-width: 576px) {
+  header .container {
+    gap: 0.5rem;
+  }
+  header .container .header-title h1 {
+    font-size: 3.5rem;
+    line-height: 50px;
+  }
+  header .container .header-title svg {
+    width: 50px;
+    height: 50px;
+  }
+  header .container .left-margin {
+    margin-left: 20px;
+  }
+  header .container .margin-right {
+    margin-right: 20px;
+  }
+  header .container p {
+    font-size: 1rem;
+  }
 }
 
 .sponsored {
