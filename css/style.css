@@ -862,6 +862,14 @@ footer .items-holder .third-box .newsletter a {
   font-size: 1rem;
   font-weight: 600;
 }
+@media only screen and (max-width: 576px) {
+  footer .items-holder .first-box {
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+  }
+  footer .items-holder .third-box {
+    border-radius: 0rem 0rem 1.25rem 1.25rem;
+  }
+}
 
 .triple {
   margin: 10rem auto 2rem auto;
