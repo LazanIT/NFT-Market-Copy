@@ -1098,4 +1098,7 @@ footer .items-holder .third-box .newsletter a {
   .triple {
     margin: 5rem auto 2rem auto;
   }
+  .triple .boxes {
+    max-width: 85%;
+  }
 }

@@ -192,5 +192,8 @@
   }
   @media only screen and (max-width: 576px) {
     margin: 5rem auto 2rem auto;
+    .boxes {
+      max-width: 85%;
+    }
   }
 }
