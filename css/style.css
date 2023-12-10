@@ -934,7 +934,7 @@ footer .items-holder .third-box .newsletter a {
   gap: 1rem;
 }
 .triple .hottest-sale-box .box-holder .normal-box {
-  width: 215px;
+  max-width: 215px;
   height: 500px;
   flex-direction: column;
   gap: 1rem;
@@ -1097,8 +1097,22 @@ footer .items-holder .third-box .newsletter a {
 @media only screen and (max-width: 576px) {
   .triple {
     margin: 5rem auto 2rem auto;
+    gap: 1rem;
   }
   .triple .boxes {
     max-width: 85%;
+    padding: 15px;
+  }
+  .triple .hottest-sale-box h1 {
+    font-size: 1.5rem;
+  }
+  .triple .hottest-sale-box .box-holder {
+    gap: 0.5rem;
+  }
+  .triple .hottest-sale-box .box-holder .normal-box img {
+    width: 100%;
+  }
+  .triple .hottest-sale-box .box-holder .normal-box hr {
+    height: 1px;
   }
 }

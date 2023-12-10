@@ -11,10 +11,8 @@
   }
   .hottest-sale-box {
     border: 1px solid $light-gray;
-
     flex-direction: column;
     gap: 2rem;
-
     justify-content: center;
     align-items: center;
     h1 {
@@ -24,7 +22,7 @@
     .box-holder {
       gap: 1rem;
       .normal-box {
-        width: 215px;
+        max-width: 215px;
         height: 500px;
         flex-direction: column;
         gap: 1rem;
@@ -192,8 +190,26 @@
   }
   @media only screen and (max-width: 576px) {
     margin: 5rem auto 2rem auto;
+    gap: 1rem;
     .boxes {
       max-width: 85%;
+      padding: 15px;
+    }
+    .hottest-sale-box {
+      h1 {
+        font-size: $md-font;
+      }
+      .box-holder {
+        gap: 0.5rem;
+        .normal-box {
+          img {
+            width: 100%;
+          }
+          hr {
+            height: 1px;
+          }
+        }
+      }
     }
   }
 }
