@@ -14,7 +14,7 @@ body {
   display: flex;
 }
 section {
-  margin: 12rem 0 0 0;
+  margin: 15rem 0 2rem 0;
 }
 
 .btn-holder {
@@ -57,4 +57,9 @@ footer {
   max-width: 1440px;
   margin: 10rem auto 0 auto;
   padding-bottom: 50px;
+}
+@media only screen and (max-width: 576px) {
+  section {
+    margin: 8rem 0 0 0;
+  }
 }

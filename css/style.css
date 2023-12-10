@@ -15,7 +15,7 @@ body {
 }
 
 section {
-  margin: 12rem 0 0 0;
+  margin: 15rem 0 2rem 0;
 }
 
 .btn-holder {
@@ -61,6 +61,11 @@ footer {
   padding-bottom: 50px;
 }
 
+@media only screen and (max-width: 576px) {
+  section {
+    margin: 8rem 0 0 0;
+  }
+}
 header {
   width: 100%;
 }
@@ -480,6 +485,34 @@ header .container .search-holder svg {
 .mid-section .triangle-img {
   position: relative;
   top: -140px;
+}
+@media only screen and (max-width: 576px) {
+  .mid-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+  .mid-section .text-holder {
+    width: 100%;
+    align-items: center;
+  }
+  .mid-section .text-holder h1 {
+    font-size: 3rem;
+  }
+  .mid-section .img-holder {
+    display: flex;
+    flex-direction: column;
+  }
+  .mid-section .bucket-img {
+    position: relative;
+    right: inherit;
+    margin-top: 0;
+  }
+  .mid-section .triangle-img {
+    top: inherit;
+    top: -80px;
+    z-index: 1;
+  }
 }
 
 .smile-section {

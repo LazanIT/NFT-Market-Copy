@@ -35,4 +35,31 @@
     position: relative;
     top: -140px;
   }
+  @media only screen and (max-width: 576px) {
+    flex-direction: column;
+    text-align: center;
+
+    gap: 3rem;
+    .text-holder {
+      width: 100%;
+      align-items: center;
+      h1 {
+        font-size: $lg-xl-font;
+      }
+    }
+    .img-holder {
+      display: flex;
+      flex-direction: column;
+    }
+    .bucket-img {
+      position: relative;
+      right: inherit;
+      margin-top: 0;
+    }
+    .triangle-img {
+      top: inherit;
+      top: -80px;
+      z-index: 1;
+    }
+  }
 }
