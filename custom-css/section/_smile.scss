@@ -46,4 +46,25 @@
       }
     }
   }
+  @media only screen and (max-width: 576px) {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    gap: 0;
+    text-align: center;
+    align-items: center;
+    .smile-image-holder {
+      .smile-img {
+        position: inherit;
+      }
+      .cloud-img {
+        top: -120px;
+        left: inherit;
+      }
+    }
+    .smile-text-holder {
+      align-items: center;
+      width: 100%;
+    }
+  }
 }

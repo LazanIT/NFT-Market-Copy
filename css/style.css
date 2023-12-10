@@ -560,6 +560,27 @@ header .container .search-holder svg {
 .smile-section .smile-text-holder .icon-holder .text-icon h4 {
   margin-top: 10px;
 }
+@media only screen and (max-width: 576px) {
+  .smile-section {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    gap: 0;
+    text-align: center;
+    align-items: center;
+  }
+  .smile-section .smile-image-holder .smile-img {
+    position: inherit;
+  }
+  .smile-section .smile-image-holder .cloud-img {
+    top: -120px;
+    left: inherit;
+  }
+  .smile-section .smile-text-holder {
+    align-items: center;
+    width: 100%;
+  }
+}
 
 .live-auction {
   justify-content: center;
