@@ -22,6 +22,7 @@
     .selection-holder {
       display: inline-flex;
       justify-content: center;
+      flex-wrap: wrap !important;
       gap: 1rem;
       button {
         background-color: $background-rest-white;
@@ -150,5 +151,22 @@
   }
   .button:hover:before {
     width: 100%;
+  }
+  @media only screen and (max-width: 576px) {
+    .live-text-btn {
+      gap: 0.5rem;
+      h4 {
+        font-size: $md-font;
+      }
+      .selection-holder {
+        gap: 1.5rem;
+        button {
+          width: 35%;
+        }
+      }
+    }
+    .button {
+      width: 90%;
+    }
   }
 }

@@ -608,6 +608,7 @@ header .container .search-holder svg {
 .live-auction .live-text-btn .selection-holder {
   display: inline-flex;
   justify-content: center;
+  flex-wrap: wrap !important;
   gap: 1rem;
 }
 .live-auction .live-text-btn .selection-holder button {
@@ -732,6 +733,23 @@ header .container .search-holder svg {
 }
 .live-auction .button:hover:before {
   width: 100%;
+}
+@media only screen and (max-width: 576px) {
+  .live-auction .live-text-btn {
+    gap: 0.5rem;
+  }
+  .live-auction .live-text-btn h4 {
+    font-size: 1.5rem;
+  }
+  .live-auction .live-text-btn .selection-holder {
+    gap: 1.5rem;
+  }
+  .live-auction .live-text-btn .selection-holder button {
+    width: 35%;
+  }
+  .live-auction .button {
+    width: 90%;
+  }
 }
 
 .icons-section {
