@@ -1115,4 +1115,23 @@ footer .items-holder .third-box .newsletter a {
   .triple .hottest-sale-box .box-holder .normal-box hr {
     height: 1px;
   }
+  .triple .top-nft-box {
+    gap: 1rem;
+    padding: 15px;
+  }
+  .triple .top-nft-box h1 {
+    font-size: 1.5rem;
+  }
+  .triple .top-nft-box .box-holder .small-box {
+    max-width: 100%;
+  }
+  .triple .top-nft-box .box-holder .small-box .small-text h5 {
+    font-size: 0.7rem;
+  }
+  .triple .top-nft-box .box-holder .small-box .small-text .small-timer i {
+    font-size: 1rem;
+  }
+  .triple .top-nft-box .box-holder .small-box .small-text .small-timer p {
+    font-size: 0.7rem;
+  }
 }

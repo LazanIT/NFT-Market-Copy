@@ -211,5 +211,30 @@
         }
       }
     }
+    .top-nft-box {
+      gap: 1rem;
+      padding: 15px;
+      h1 {
+        font-size: $md-font;
+      }
+      .box-holder {
+        .small-box {
+          max-width: 100%;
+          .small-text {
+            h5 {
+              font-size: 0.7rem;
+            }
+            .small-timer {
+              i {
+                font-size: $sm-font;
+              }
+              p {
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
