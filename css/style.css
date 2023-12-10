@@ -913,14 +913,16 @@ footer .items-holder .third-box .newsletter a {
   gap: 1.5rem;
   flex-wrap: wrap !important;
 }
-.triple .hottest-sale-box {
+.triple .boxes {
   max-width: 440px;
   max-height: 800px;
-  border: 1px solid #bbc0d0;
+  padding: 20px;
   border-radius: 10px;
+}
+.triple .hottest-sale-box {
+  border: 1px solid #bbc0d0;
   flex-direction: column;
   gap: 2rem;
-  padding: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -996,10 +998,6 @@ footer .items-holder .third-box .newsletter a {
   opacity: 20%;
 }
 .triple .get-started-box {
-  max-width: 440px;
-  max-height: 800px;
-  padding: 20px;
-  border-radius: 10px;
   background-color: #1c1d29;
   align-items: center;
   justify-content: center;
@@ -1027,10 +1025,6 @@ footer .items-holder .third-box .newsletter a {
   margin-bottom: 2rem;
 }
 .triple .top-nft-box {
-  max-width: 440px;
-  max-height: 800px;
-  padding: 20px;
-  border-radius: 10px;
   border: 1px solid #bbc0d0;
   flex-direction: column;
   gap: 1.5rem;
@@ -1099,4 +1093,9 @@ footer .items-holder .third-box .newsletter a {
 }
 .triple .top-nft-box .box-holder .small-box .small-text .small-heart .red-heart i {
   color: red;
+}
+@media only screen and (max-width: 576px) {
+  .triple {
+    margin: 5rem auto 2rem auto;
+  }
 }

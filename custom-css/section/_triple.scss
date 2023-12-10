@@ -3,14 +3,18 @@
   justify-content: center;
   gap: 1.5rem;
   flex-wrap: wrap !important;
-  .hottest-sale-box {
+  .boxes {
     max-width: 440px;
     max-height: 800px;
-    border: 1px solid $light-gray;
+    padding: 20px;
     border-radius: 10px;
+  }
+  .hottest-sale-box {
+    border: 1px solid $light-gray;
+
     flex-direction: column;
     gap: 2rem;
-    padding: 20px;
+
     justify-content: center;
     align-items: center;
     h1 {
@@ -88,10 +92,6 @@
     }
   }
   .get-started-box {
-    max-width: 440px;
-    max-height: 800px;
-    padding: 20px;
-    border-radius: 10px;
     background-color: #1c1d29;
     align-items: center;
     justify-content: center;
@@ -119,10 +119,6 @@
     }
   }
   .top-nft-box {
-    max-width: 440px;
-    max-height: 800px;
-    padding: 20px;
-    border-radius: 10px;
     border: 1px solid $light-gray;
     flex-direction: column;
     gap: 1.5rem;
@@ -193,5 +189,8 @@
         }
       }
     }
+  }
+  @media only screen and (max-width: 576px) {
+    margin: 5rem auto 2rem auto;
   }
 }
