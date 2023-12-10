@@ -95,6 +95,9 @@ footer {
   }
   @media only screen and (max-width: 576px) {
     .items-holder {
+      .box {
+        width: 90%;
+      }
       .first-box {
         border-radius: 1.25rem 1.25rem 0rem 0rem;
       }
