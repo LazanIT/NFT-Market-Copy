@@ -827,6 +827,10 @@ header .container .search-holder svg {
   justify-content: center;
   flex-direction: row;
   gap: 1.5rem;
+  position: relative;
+  margin: 10rem auto 2rem auto;
+  width: 90%;
+  overflow: hidden;
 }
 .scrolling .scroll-card {
   gap: 0.5rem;
