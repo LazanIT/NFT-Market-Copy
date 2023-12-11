@@ -824,15 +824,19 @@ header .container .search-holder svg {
 }
 
 .scrolling {
-  justify-content: center;
-  flex-direction: row;
-  gap: 1.5rem;
   position: relative;
   margin: 10rem auto 2rem auto;
   width: 90%;
   overflow: hidden;
 }
+.scrolling .scroll-track {
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  width: 3800px;
+}
 .scrolling .scroll-card {
+  width: 100px;
   gap: 0.5rem;
   text-align: center;
   flex-direction: column;
