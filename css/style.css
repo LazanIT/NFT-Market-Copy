@@ -856,6 +856,9 @@ header .container .search-holder svg {
   top: 0;
   transform: rotate(180deg);
 }
+.scrolling .scroll-track:hover {
+  animation-play-state: paused;
+}
 .scrolling .scroll-card {
   width: 100px;
   gap: 0.5rem;

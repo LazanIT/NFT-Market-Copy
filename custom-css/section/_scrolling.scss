@@ -31,6 +31,10 @@
       transform: rotate(180deg);
     }
     animation: scroll 40s linear infinite;
+
+    &:hover {
+      animation-play-state: paused;
+    }
   }
   .scroll-card {
     width: 100px;
