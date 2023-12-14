@@ -837,6 +837,7 @@ header .container .search-holder svg {
   gap: 1.2rem;
   justify-content: center;
   width: 3800px;
+  animation: scroll 40s linear infinite;
 }
 .scrolling .scroll-track::before, .scrolling .scroll-track::after {
   background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
@@ -872,6 +873,14 @@ header .container .search-holder svg {
 }
 .scrolling .scroll-card:hover {
   transform: scale(1.05);
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1900px);
+  }
 }
 
 footer .items-holder {

@@ -30,6 +30,7 @@
       top: 0;
       transform: rotate(180deg);
     }
+    animation: scroll 40s linear infinite;
   }
   .scroll-card {
     width: 100px;
@@ -47,6 +48,14 @@
     }
     &:hover {
       transform: scale(1.05);
+    }
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100px * 19));
     }
   }
 }
