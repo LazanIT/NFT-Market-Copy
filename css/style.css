@@ -860,12 +860,18 @@ header .container .search-holder svg {
   gap: 0.5rem;
   text-align: center;
   flex-direction: column;
+  perspective: 100%;
+  transition: transform 1s;
+  cursor: pointer;
 }
 .scrolling .scroll-card span {
   font-family: "Inter";
   font-weight: 400;
   font-size: 1rem;
   color: #7780a1;
+}
+.scrolling .scroll-card:hover {
+  transform: scale(1.05);
 }
 
 footer .items-holder {
