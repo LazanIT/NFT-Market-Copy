@@ -8,6 +8,28 @@
     gap: 1.2rem;
     justify-content: center;
     width: calc(100px * 38);
+    &::before,
+    &::after {
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      content: " ";
+      height: 100%;
+      position: absolute;
+      z-index: 2;
+      width: 15%;
+    }
+    &::before {
+      left: 0;
+      top: 0;
+    }
+    &::after {
+      right: 0;
+      top: 0;
+      transform: rotate(180deg);
+    }
   }
   .scroll-card {
     width: 100px;
