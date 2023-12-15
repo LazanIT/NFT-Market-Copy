@@ -837,24 +837,7 @@ header .container .search-holder svg {
   gap: 1.2rem;
   justify-content: center;
   width: 3800px;
-  animation: scroll 40s linear infinite;
-}
-.scrolling .scroll-track::before, .scrolling .scroll-track::after {
-  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
-  content: " ";
-  height: 100%;
-  position: absolute;
-  z-index: 2;
-  width: 15%;
-}
-.scrolling .scroll-track::before {
-  left: 0;
-  top: 0;
-}
-.scrolling .scroll-track::after {
-  right: 0;
-  top: 0;
-  transform: rotate(180deg);
+  animation: scroll 50s linear infinite;
 }
 .scrolling .scroll-track:hover {
   animation-play-state: paused;
