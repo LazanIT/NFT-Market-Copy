@@ -95,8 +95,11 @@ header {
     .responsive-nav {
       display: none;
     }
+    .phone-only {
+      display: none;
+    }
   }
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 992px) {
     nav {
       position: fixed;
       flex-direction: row;
@@ -127,6 +130,9 @@ header {
         display: block;
         font-size: $md-font;
         color: $blue-purple;
+      }
+      .phone-only {
+        display: block;
       }
     }
   }

@@ -155,7 +155,10 @@ header nav .button-holder .my-account-btn:hover {
 header nav .responsive-nav {
   display: none;
 }
-@media only screen and (max-width: 576px) {
+header nav .phone-only {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
   header nav {
     position: fixed;
     flex-direction: row;
@@ -187,6 +190,9 @@ header nav .responsive-nav {
     display: block;
     font-size: 1.5rem;
     color: #2a27c9;
+  }
+  header nav .phone-only {
+    display: block;
   }
 }
 header .container {
