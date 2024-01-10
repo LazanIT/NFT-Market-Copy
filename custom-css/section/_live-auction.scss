@@ -47,7 +47,7 @@
     margin: 35px auto 0 auto;
     gap: 10px;
     width: 70%;
-    flex-wrap: wrap !important;
+
     .card {
       flex-direction: column;
       gap: 1rem;
@@ -168,6 +168,9 @@
     }
     .button {
       width: 90%;
+    }
+    .card-holder {
+      flex-wrap: wrap !important;
     }
   }
 }
