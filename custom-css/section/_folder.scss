@@ -12,8 +12,8 @@
     height: 100%;
     .folder-text {
       justify-content: center;
+      width: 45%;
       align-items: flex-start;
-      width: 40%;
       flex-direction: column;
       gap: 2rem;
       span {
@@ -37,6 +37,23 @@
     }
     .folder-items {
       width: 40%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    max-width: 100%;
+    height: auto;
+
+    .folder-holder {
+      flex-direction: column;
+      justify-content: center;
+      .folder-text {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        h1 {
+          font-size: $lg-font;
+        }
+      }
     }
   }
 }
