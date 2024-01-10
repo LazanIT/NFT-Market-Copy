@@ -526,8 +526,11 @@ header .container .search-holder svg {
   }
   .mid-section .triangle-img {
     top: inherit;
-    top: -80px;
+    top: -70px;
     z-index: 1;
+  }
+  .mid-section img {
+    width: 90%;
   }
 }
 
