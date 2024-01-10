@@ -1227,4 +1227,7 @@ footer .items-holder .third-box .newsletter a {
   .triple .top-nft-box .box-holder .small-box .small-text .small-timer p {
     font-size: 0.7rem;
   }
+  .triple .get-started-box img {
+    width: 99%;
+  }
 }
