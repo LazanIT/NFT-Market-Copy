@@ -38,6 +38,10 @@
     .folder-items {
       width: 50%;
       .item-holder {
+        flex-direction: column;
+
+        overflow: hidden;
+
         .item {
           img {
             width: 61px;
