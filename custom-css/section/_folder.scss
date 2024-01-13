@@ -47,18 +47,28 @@
           gap: 10px;
           justify-content: center;
           align-items: center;
+          text-align: center;
           width: 460px;
           height: 85px;
           border: 1px solid $light-gray;
           border-radius: 10px;
           padding-top: 20px;
-          line-height: 40px;
+          line-height: 30px;
         }
         .item-value {
+          flex-direction: column;
           width: 75%;
           .item-name {
             justify-content: space-between;
-            padding-top: 0;
+            h5 {
+              font-size: $sm-font;
+            }
+          }
+          .item-icon {
+            font-size: $sm-font;
+            color: $light-gray;
+            font-weight: 400;
+            gap: 20px;
           }
         }
       }
