@@ -862,7 +862,7 @@ header .container .search-holder svg {
   align-items: center;
   text-align: center;
   width: 460px;
-  height: 70px;
+  height: 85px;
   border: 1px solid #bbc0d0;
   border-radius: 10px;
   padding-top: 5px;
@@ -906,11 +906,18 @@ header .container .search-holder svg {
   font-size: 1.2rem;
 }
 .folder .folder-holder .folder-items .item-holder .item-one {
-  top: 50px;
+  top: 75px;
 }
 .folder .folder-holder .folder-items .item-holder .item-two {
   top: -50px;
   right: -500px;
+}
+.folder .folder-holder .folder-items .item-holder .item-three {
+  top: 20px;
+  right: -230px;
+}
+.folder .folder-holder .folder-items .item-holder .item-four {
+  top: 90px;
 }
 @media only screen and (max-width: 576px) {
   .folder {
