@@ -917,7 +917,10 @@ header .container .search-holder svg {
   right: -230px;
 }
 .folder .folder-holder .folder-items .item-holder .item-four {
-  top: 90px;
+  top: 80px;
+}
+.folder .folder-holder .folder-items .item-holder .item-five {
+  right: -490px;
 }
 @media only screen and (max-width: 576px) {
   .folder {
