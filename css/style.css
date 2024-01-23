@@ -855,6 +855,7 @@ header .container .search-holder svg {
   overflow: hidden;
 }
 .folder .folder-holder .folder-items .item-holder .item {
+  position: relative;
   overflow: hidden;
   gap: 10px;
   justify-content: center;
@@ -872,17 +873,17 @@ header .container .search-holder svg {
   height: 61px;
   margin-top: 2px;
 }
-.folder .folder-holder .folder-items .item-holder .item-value {
+.folder .folder-holder .folder-items .item-holder .item .item-value {
   flex-direction: column;
   width: 75%;
 }
-.folder .folder-holder .folder-items .item-holder .item-value .item-name {
+.folder .folder-holder .folder-items .item-holder .item .item-value .item-name {
   justify-content: space-between;
 }
-.folder .folder-holder .folder-items .item-holder .item-value .item-name h5 {
+.folder .folder-holder .folder-items .item-holder .item .item-value .item-name h5 {
   font-size: 1rem;
 }
-.folder .folder-holder .folder-items .item-holder .item-value .item-name p {
+.folder .folder-holder .folder-items .item-holder .item .item-value .item-name p {
   background-color: rgba(42, 39, 201, 0.1);
   padding: 0.275rem 0.375rem;
   color: #2a27c9;
@@ -891,18 +892,25 @@ header .container .search-holder svg {
   border-radius: 10px;
   opacity: 30%;
 }
-.folder .folder-holder .folder-items .item-holder .item-value .item-icon {
+.folder .folder-holder .folder-items .item-holder .item .item-value .item-icon {
   color: #bbc0d0;
   font-weight: 400;
   gap: 15px;
 }
-.folder .folder-holder .folder-items .item-holder .item-value .item-icon span {
+.folder .folder-holder .folder-items .item-holder .item .item-value .item-icon span {
   gap: 0.2rem;
   line-height: 20px;
   font-size: 1rem;
 }
-.folder .folder-holder .folder-items .item-holder .item-value .item-icon span i {
+.folder .folder-holder .folder-items .item-holder .item .item-value .item-icon span i {
   font-size: 1.2rem;
+}
+.folder .folder-holder .folder-items .item-holder .item-one {
+  top: 50px;
+}
+.folder .folder-holder .folder-items .item-holder .item-two {
+  top: -50px;
+  right: -500px;
 }
 @media only screen and (max-width: 576px) {
   .folder {
