@@ -132,7 +132,23 @@
       .folder-items {
         width: 100%;
         .item-holder {
-          .item {
+          .item-one {
+            top: 25px;
+          }
+          .item-two {
+            top: 40px;
+            right: -50px;
+          }
+          .item-three {
+            top: 55px;
+          }
+          .item-four {
+            top: 0;
+            left: -200px;
+          }
+          .item-five {
+            right: 0;
+            top: 10px;
           }
         }
       }
