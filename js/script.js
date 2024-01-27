@@ -33,27 +33,30 @@ navToggle.addEventListener("click", () => {
 
 // Courasel
 
-const courasel = document.querySelector(".slider");
+let courasel = document.getElementById("courasel-img");
 
-let isDragingStart = false,
+let isDraggingStart = false,
   prevPageX,
   prevScrollLeft;
 
 const dragStart = (e) => {
-  isDragingStart = true;
+  isDraggingStart = true;
   prevPageX = e.pageX;
   prevScrollLeft = courasel.scrollLeft;
+  console.log("a");
 };
 
 const draggingMouse = (e) => {
-  if (!isDragingStart) return;
+  if (!isDraggingStart) return;
   e.preventDefault();
-  let positon = e.pageX - e.prevPageX;
-  courasel.scrollLeft = prevScrollLeft - positon;
+  let position = e.pageX - prevPageX;
+  courasel.scrollLeft = prevScrollLeft - position;
+  console.log("b");
 };
 
 const dragStop = () => {
-  isDragingStart = false;
+  isDraggingStart = false;
+  console.log("c");
 };
 
 courasel.addEventListener("mousedown", dragStart);
