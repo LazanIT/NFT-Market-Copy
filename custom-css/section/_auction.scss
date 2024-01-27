@@ -2,12 +2,30 @@
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  width: 90%;
+  max-width: 100%;
   align-items: center;
   gap: 3rem;
   margin: 10rem auto 2rem auto;
   h1 {
     font-size: 2.25rem;
+  }
+  .courasel-arrow {
+    height: 50px;
+    width: 50px;
+    font-size: $lg-font;
+    text-align: center;
+    position: absolute;
+    background-color: $light-gray;
+    line-height: 50px;
+    border-radius: 45%;
+    transform: translateY(-50%);
+    align-self: start;
+    &:first-child {
+      left: -1000px;
+    }
+    &:last-child {
+      right: -23px;
+    }
   }
   .courasel-holder {
     gap: 2rem;
