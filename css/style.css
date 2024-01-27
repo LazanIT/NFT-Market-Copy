@@ -393,6 +393,8 @@ header .container .search-holder svg {
   align-items: center;
   gap: 3rem;
   margin: 10rem auto 2rem auto;
+  box-sizing: border-box;
+  position: relative;
 }
 .latest-auction h1 {
   font-size: 2.25rem;
@@ -408,15 +410,18 @@ header .container .search-holder svg {
   border-radius: 45%;
   transform: translateY(-50%);
   align-self: start;
+  z-index: 3;
 }
 .latest-auction .courasel-arrow:first-child {
-  left: -1000px;
+  left: 50px;
 }
 .latest-auction .courasel-arrow:last-child {
-  right: -23px;
+  right: 0;
 }
 .latest-auction .courasel-holder {
   gap: 2rem;
+  overflow: hidden;
+  position: relative;
 }
 .latest-auction .courasel-holder .image-holder {
   justify-content: space-around;
