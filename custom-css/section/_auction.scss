@@ -27,10 +27,15 @@
     transform: translateY(-50%);
     align-self: first baseline;
     z-index: 3;
-
+    transition: all 0.4s linear;
+    cursor: pointer;
     &:last-child {
       right: 50px;
       left: auto;
+    }
+    &:hover {
+      background-color: $light-gray;
+      border-radius: 35%;
     }
   }
   .courasel-holder {

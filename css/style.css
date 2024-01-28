@@ -414,10 +414,16 @@ header .container .search-holder svg {
   transform: translateY(-50%);
   align-self: first baseline;
   z-index: 3;
+  transition: all 0.4s linear;
+  cursor: pointer;
 }
 .latest-auction .courasel-arrow:last-child {
   right: 50px;
   left: auto;
+}
+.latest-auction .courasel-arrow:hover {
+  background-color: #bbc0d0;
+  border-radius: 35%;
 }
 .latest-auction .courasel-holder {
   gap: 2rem;
