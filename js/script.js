@@ -14,7 +14,7 @@ categories.forEach((category) => {
     selectedCategory.innerText = category.innerText;
   });
 });
-// Heart changing color
+
 let heartIcon = document.querySelectorAll(".heart");
 let changedHeart;
 heartIcon.forEach((heart) => {
@@ -31,13 +31,18 @@ navToggle.addEventListener("click", () => {
   linkHolder.classList.toggle("show-links");
 });
 
-// Courasel
-
-let courasel = document.getElementById("courasel-img");
+const courasel = document.getElementById("courasel-img");
+const arrowIcons = document.querySelectorAll(".courasel-arrow");
 
 let isDraggingStart = false,
   prevPageX,
   prevScrollLeft;
+
+arrowIcons.forEach((icon) => {
+  icon.addEventListener("click", () => {
+    console.log("arrow");
+  });
+});
 
 const dragStart = (e) => {
   isDraggingStart = true;
