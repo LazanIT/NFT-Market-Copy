@@ -394,6 +394,7 @@ header .container .search-holder svg {
   gap: 3rem;
   margin: 10rem auto 2rem auto;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 .latest-auction h1 {
   font-size: 2.25rem;
@@ -431,6 +432,7 @@ header .container .search-holder svg {
   position: relative;
   box-sizing: border-box;
   width: 100%;
+  scroll-behavior: smooth;
 }
 .latest-auction .courasel-holder .image-holder {
   justify-content: space-around;

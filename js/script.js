@@ -25,6 +25,7 @@ heartIcon.forEach((heart) => {
 
 // Dodajte JavaScript logiku za prikazivanje/skrivanje navigacije na mobilnim uređajima
 const navToggle = document.querySelector(".responsive-nav");
+
 const linkHolder = document.querySelector(".link-holder ul");
 
 navToggle.addEventListener("click", () => {
@@ -32,30 +33,35 @@ navToggle.addEventListener("click", () => {
 });
 
 const courasel = document.getElementById("courasel-img");
-const arrowIcons = document.querySelectorAll(".courasel-arrow");
+const arrowIcons = document.querySelectorAll(".arrow");
+const firstImg = courasel.querySelector(".image-holder img");
+const leftArrow = document.querySelector("#left-arrow");
+const rightArrow = document.querySelector("#right-arrow");
 
 let isDraggingStart = false,
-  prevPageX,
-  prevScrollLeft;
+  startPageX,
+  startScrollLeft;
+let firstImgWidth = firstImg.clientWidth;
 
-arrowIcons.forEach((icon) => {
-  icon.addEventListener("click", () => {
-    console.log("arrow");
-  });
+leftArrow.addEventListener("click", () => {
+  courasel.scrollLeft -= firstImgWidth;
+});
+rightArrow.addEventListener("click", () => {
+  courasel.scrollLeft += firstImgWidth;
 });
 
 const dragStart = (e) => {
   isDraggingStart = true;
-  prevPageX = e.pageX;
-  prevScrollLeft = courasel.scrollLeft;
+  startPageX = e.pageX;
+  startScrollLeft = courasel.scrollLeft;
   console.log("a");
 };
 
 const draggingMouse = (e) => {
   if (!isDraggingStart) return;
   e.preventDefault();
-  let position = e.pageX - prevPageX;
-  courasel.scrollLeft = prevScrollLeft - position;
+  let delta = startPageX - e.pageX;
+  courasel.scrollLeft = startScrollLeft + delta;
   console.log("b");
 };
 
