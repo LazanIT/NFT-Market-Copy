@@ -398,24 +398,26 @@ header .container .search-holder svg {
 .latest-auction h1 {
   font-size: 2.25rem;
 }
+.latest-auction .left-arrow {
+  left: 50px;
+  right: auto;
+}
 .latest-auction .courasel-arrow {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   font-size: 2rem;
   text-align: center;
   position: absolute;
-  background-color: #bbc0d0;
-  line-height: 50px;
+  background-color: rgba(238, 232, 232, 0.527);
+  line-height: 80px;
   border-radius: 45%;
   transform: translateY(-50%);
-  align-self: start;
+  align-self: first baseline;
   z-index: 3;
 }
-.latest-auction .courasel-arrow:first-child {
-  left: 50px;
-}
 .latest-auction .courasel-arrow:last-child {
-  right: 0;
+  right: 50px;
+  left: auto;
 }
 .latest-auction .courasel-holder {
   gap: 2rem;
