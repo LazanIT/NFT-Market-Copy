@@ -431,7 +431,7 @@ header .container .search-holder svg {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  width: 100%;
+  width: 95%;
   scroll-behavior: smooth;
 }
 .latest-auction .courasel-holder .image-holder {
@@ -497,6 +497,11 @@ header .container .search-holder svg {
 }
 .latest-auction .courasel-holder .image-holder .people-holder .red-heart i {
   color: red;
+}
+@media only screen and (max-width: 578px) {
+  .latest-auction h1 {
+    font-size: 2rem;
+  }
 }
 
 .mid-section {

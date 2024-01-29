@@ -43,14 +43,13 @@
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-    width: 100%;
+    width: 95%;
     scroll-behavior: smooth;
     .image-holder {
       justify-content: space-around;
       padding: 10px;
       flex-direction: column;
       gap: 10px;
-
       position: relative;
       img {
         width: 25rem;
@@ -113,6 +112,11 @@
           }
         }
       }
+    }
+  }
+  @media only screen and (max-width: 578px) {
+    h1 {
+      font-size: $lg-font;
     }
   }
 }
