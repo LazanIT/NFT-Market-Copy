@@ -431,8 +431,8 @@ header .container .search-holder svg {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  width: 95%;
   scroll-behavior: smooth;
+  width: 95%;
 }
 .latest-auction .courasel-holder .image-holder {
   justify-content: space-around;
@@ -510,11 +510,23 @@ header .container .search-holder svg {
     font-size: 1.5rem;
   }
   .latest-auction .courasel-holder {
-    width: 100%;
-    gap: 1rem;
+    width: 86.9565217391%;
+    gap: 0;
+    margin-left: 0;
   }
   .latest-auction .courasel-holder .image-holder {
-    max-width: 350px;
+    width: 100%;
+    height: 600px;
+  }
+  .latest-auction .courasel-holder .image-holder img {
+    width: 310px;
+  }
+  .latest-auction .courasel-holder .image-holder .text-holder h3 {
+    font-size: 0.75rem;
+  }
+  .latest-auction .courasel-holder .image-holder .text-holder p {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
   }
 }
 
