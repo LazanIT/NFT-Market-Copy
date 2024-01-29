@@ -41,7 +41,7 @@ const rightArrow = document.querySelector("#right-arrow");
 let isDraggingStart = false,
   startPageX,
   startScrollLeft;
-let firstImgWidth = firstImg.clientWidth;
+let firstImgWidth = firstImg.clientWidth + 15;
 
 leftArrow.addEventListener("click", () => {
   courasel.scrollLeft -= firstImgWidth;
