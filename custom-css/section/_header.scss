@@ -105,10 +105,10 @@ header {
 
     @media only screen and (max-width: 993px) {
       padding: 0.5rem;
-      overflow: visible;
-
       .responsive-nav-icon {
         display: block;
+        font-size: $lg-font;
+        color: #4745d0;
       }
       .right-side-holder {
         position: absolute;
@@ -118,10 +118,21 @@ header {
         background-color: gray;
         top: 50px;
         left: 0;
-        height: 250px;
+        height: 300px;
         gap: 0.5rem;
         padding: 10px 0 10px 0;
         border-radius: 10px;
+        .button-holder {
+          flex-direction: column;
+          .contact-btn {
+            padding: 0.7rem 0.9rem;
+            font-size: 0.9rem;
+          }
+          .my-account-btn {
+            padding: 0.7rem 0.9rem;
+            font-size: 0.9rem;
+          }
+        }
       }
       ul {
         display: flex;

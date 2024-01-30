@@ -164,10 +164,11 @@ header nav .responsive-nav-icon {
 @media only screen and (max-width: 993px) {
   header nav {
     padding: 0.5rem;
-    overflow: visible;
   }
   header nav .responsive-nav-icon {
     display: block;
+    font-size: 2rem;
+    color: #4745d0;
   }
   header nav .right-side-holder {
     position: absolute;
@@ -177,10 +178,21 @@ header nav .responsive-nav-icon {
     background-color: gray;
     top: 50px;
     left: 0;
-    height: 250px;
+    height: 300px;
     gap: 0.5rem;
     padding: 10px 0 10px 0;
     border-radius: 10px;
+  }
+  header nav .right-side-holder .button-holder {
+    flex-direction: column;
+  }
+  header nav .right-side-holder .button-holder .contact-btn {
+    padding: 0.7rem 0.9rem;
+    font-size: 0.9rem;
+  }
+  header nav .right-side-holder .button-holder .my-account-btn {
+    padding: 0.7rem 0.9rem;
+    font-size: 0.9rem;
   }
   header nav ul {
     display: flex;
