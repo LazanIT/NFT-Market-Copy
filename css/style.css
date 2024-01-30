@@ -164,6 +164,7 @@ header nav .responsive-nav-icon {
 @media only screen and (max-width: 993px) {
   header nav {
     padding: 0.5rem;
+    box-sizing: border-box;
   }
   header nav .responsive-nav-icon {
     display: block;
@@ -183,19 +184,17 @@ header nav .responsive-nav-icon {
     padding: 10px 0 10px 0;
     border-radius: 10px;
   }
+  header nav .right-side-holder.responsive-style {
+    position: absolute;
+    top: 50px;
+  }
   header nav .right-side-holder .button-holder {
     flex-direction: column;
   }
-  header nav .right-side-holder .button-holder .contact-btn {
-    padding: 0.7rem 0.9rem;
-    font-size: 0.9rem;
-  }
+  header nav .right-side-holder .button-holder .contact-btn,
   header nav .right-side-holder .button-holder .my-account-btn {
     padding: 0.7rem 0.9rem;
     font-size: 0.9rem;
-  }
-  header nav .right-side-holder .responsive-style {
-    top: 50px;
   }
   header nav ul {
     display: flex;

@@ -21,6 +21,7 @@ header {
         cursor: pointer;
       }
     }
+
     .right-side-holder {
       display: flex;
       justify-content: space-between;
@@ -105,11 +106,14 @@ header {
 
     @media only screen and (max-width: 993px) {
       padding: 0.5rem;
+      box-sizing: border-box;
+
       .responsive-nav-icon {
         display: block;
         font-size: $lg-font;
         color: #4745d0;
       }
+
       .right-side-holder {
         position: absolute;
         display: flex;
@@ -122,19 +126,17 @@ header {
         gap: 0.5rem;
         padding: 10px 0 10px 0;
         border-radius: 10px;
+        &.responsive-style {
+          position: absolute;
+          top: 50px;
+        }
         .button-holder {
           flex-direction: column;
-          .contact-btn {
-            padding: 0.7rem 0.9rem;
-            font-size: 0.9rem;
-          }
+          .contact-btn,
           .my-account-btn {
             padding: 0.7rem 0.9rem;
             font-size: 0.9rem;
           }
-        }
-        .responsive-style {
-          top: 50px;
         }
       }
       ul {

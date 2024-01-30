@@ -1,7 +1,14 @@
-let nav = document.querySelector("#responsive-navbar");
+let nav = document.querySelector(".right-side-holder");
 let navBtn = document.querySelector("#responsive-btn");
 
-navBtn.addEventListener("click", () => {});
+if (!nav) {
+  console.error("Error");
+} else {
+  navBtn.addEventListener("click", (e) => {
+    console.log("success");
+    nav.classList.toggle("responsive-style");
+  });
+}
 
 const select = document.getElementById("select");
 const list = document.getElementById("list");
