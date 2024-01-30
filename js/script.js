@@ -24,14 +24,7 @@ heartIcon.forEach((heart) => {
 });
 
 // Dodajte JavaScript logiku za prikazivanje/skrivanje navigacije na mobilnim uređajima
-const navToggle = document.querySelector(".responsive-nav");
-
-const linkHolder = document.querySelector(".link-holder ul");
-
-navToggle.addEventListener("click", () => {
-  linkHolder.classList.toggle("show-links");
-});
-
+//
 const courasel = document.getElementById("courasel-img");
 const arrowIcons = document.querySelectorAll(".arrow");
 const firstImg = courasel.querySelector(".image-holder img");
