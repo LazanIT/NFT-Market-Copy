@@ -176,7 +176,7 @@ header nav .responsive-nav-icon {
     flex-direction: column;
     width: 100%;
     background-color: gray;
-    top: 50px;
+    top: -500px;
     left: 0;
     height: 300px;
     gap: 0.5rem;
@@ -193,6 +193,9 @@ header nav .responsive-nav-icon {
   header nav .right-side-holder .button-holder .my-account-btn {
     padding: 0.7rem 0.9rem;
     font-size: 0.9rem;
+  }
+  header nav .right-side-holder .responsive-style {
+    top: 50px;
   }
   header nav ul {
     display: flex;

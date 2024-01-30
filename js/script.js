@@ -1,4 +1,8 @@
-// Script for search categories
+let nav = document.querySelector("#responsive-navbar");
+let navBtn = document.querySelector("#responsive-btn");
+
+navBtn.addEventListener("click", () => {});
+
 const select = document.getElementById("select");
 const list = document.getElementById("list");
 const selectedCategory = document.getElementById("selectedCategory");
@@ -23,8 +27,6 @@ heartIcon.forEach((heart) => {
   });
 });
 
-// Dodajte JavaScript logiku za prikazivanje/skrivanje navigacije na mobilnim uređajima
-//
 const courasel = document.getElementById("courasel-img");
 const arrowIcons = document.querySelectorAll(".arrow");
 const firstImg = courasel.querySelector(".image-holder img");

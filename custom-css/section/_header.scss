@@ -116,7 +116,7 @@ header {
         flex-direction: column;
         width: 100%;
         background-color: gray;
-        top: 50px;
+        top: -500px;
         left: 0;
         height: 300px;
         gap: 0.5rem;
@@ -132,6 +132,9 @@ header {
             padding: 0.7rem 0.9rem;
             font-size: 0.9rem;
           }
+        }
+        .responsive-style {
+          top: 50px;
         }
       }
       ul {
