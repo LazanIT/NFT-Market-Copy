@@ -9,6 +9,9 @@ if (!nav) {
     nav.classList.toggle("responsive-style");
   });
 }
+window.onscroll = () => {
+  nav.classList.remove("responsive-style");
+};
 
 const select = document.getElementById("select");
 const list = document.getElementById("list");
