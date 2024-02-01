@@ -1410,22 +1410,28 @@ footer .items-holder .third-box .newsletter a {
   }
 }
 
-.center {
+.loader-container {
+  z-index: 1000;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   background-color: #d7b8ff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.2s ease-in;
 }
-.center .ring {
+.loader-container .ring {
   position: absolute;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   animation: ring 2s linear infinite;
 }
-.center .ring::before {
+.loader-container .ring::before {
   position: absolute;
   content: "";
   left: 0;
@@ -1435,7 +1441,7 @@ footer .items-holder .third-box .newsletter a {
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
   border-radius: 50%;
 }
-.center span {
+.loader-container span {
   color: #2a27c9;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -1462,4 +1468,7 @@ footer .items-holder .third-box .newsletter a {
     transform: rotate(360deg);
     box-shadow: 1px 5px 2px #4305ee;
   }
+}
+.fade-out {
+  top: 120%;
 }

@@ -1,3 +1,16 @@
+const loader = () => {
+  document.querySelector(".loader-container").classList.add("fade-out");
+  console.log("success");
+};
+const fadeOut = () => {
+  setTimeout(() => {
+    loader();
+    console.log("fake");
+  }, 1500);
+};
+
+window.onload = fadeOut;
+
 let nav = document.querySelector(".right-side-holder");
 let navBtn = document.querySelector("#responsive-btn");
 
