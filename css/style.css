@@ -1462,11 +1462,11 @@ footer .items-holder .third-box .newsletter a {
   }
   50% {
     transform: rotate(180deg);
-    box-shadow: 1px 5px 2px #6028fa;
+    box-shadow: 1px 5px 2px #260386;
   }
   100% {
     transform: rotate(360deg);
-    box-shadow: 1px 5px 2px #4305ee;
+    box-shadow: 1px 5px 2px #11013d;
   }
 }
 .fade-out {
