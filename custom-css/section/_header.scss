@@ -267,7 +267,7 @@ header {
         cursor: pointer;
       }
     }
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: $small-responsive) {
       .header-title {
         h1 {
           font-size: 3.5rem;
